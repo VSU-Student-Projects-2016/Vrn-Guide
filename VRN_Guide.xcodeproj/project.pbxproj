@@ -14,6 +14,7 @@
 		F1D1E99B1DA91B150043C14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */; };
 		F1D1E9A61DA91B150043C14C /* VRN_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9A51DA91B150043C14C /* VRN_GuideTests.swift */; };
 		F1D1E9B11DA91B150043C14C /* VRN_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9B01DA91B150043C14C /* VRN_GuideUITests.swift */; };
+		F1D1E9C01DA92E570043C14C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1E9BF1DA92E570043C14C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F1D1E9AC1DA91B150043C14C /* VRN_GuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VRN_GuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1E9B01DA91B150043C14C /* VRN_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRN_GuideUITests.swift; sourceTree = "<group>"; };
 		F1D1E9B21DA91B150043C14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D1E9BF1DA92E570043C14C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D1E9C01DA92E570043C14C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				F1D1E9A41DA91B150043C14C /* VRN_GuideTests */,
 				F1D1E9AF1DA91B150043C14C /* VRN_GuideUITests */,
 				F1D1E98E1DA91B150043C14C /* Products */,
+				F1D1E9BE1DA92E570043C14C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				F1D1E9B21DA91B150043C14C /* Info.plist */,
 			);
 			path = VRN_GuideUITests;
+			sourceTree = "<group>";
+		};
+		F1D1E9BE1DA92E570043C14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1D1E9BF1DA92E570043C14C /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +206,11 @@
 					F1D1E98C1DA91B140043C14C = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					F1D1E9A01DA91B150043C14C = {
 						CreatedOnToolsVersion = 8.0;

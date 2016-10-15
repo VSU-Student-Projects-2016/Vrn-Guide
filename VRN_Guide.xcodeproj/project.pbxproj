@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */; };
 		F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9901DA91B150043C14C /* AppDelegate.swift */; };
 		F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9921DA91B150043C14C /* ViewController.swift */; };
 		F1D1E9961DA91B150043C14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D1E9941DA91B150043C14C /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		F1D1E98D1DA91B150043C14C /* VRN_Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRN_Guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1E9901DA91B150043C14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D1E9921DA91B150043C14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				F1D1E9901DA91B150043C14C /* AppDelegate.swift */,
 				F1D1E9921DA91B150043C14C /* ViewController.swift */,
 				F1D1E9941DA91B150043C14C /* Main.storyboard */,
+				F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */,
 				F1D1E9971DA91B150043C14C /* Assets.xcassets */,
 				F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */,
 				F1D1E99C1DA91B150043C14C /* Info.plist */,
@@ -278,6 +281,7 @@
 			files = (
 				F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */,
 				F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */,
+				F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +526,7 @@
 				F1D1E9B71DA91B150043C14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D1E9B81DA91B150043C14C /* Build configuration list for PBXNativeTarget "VRN_GuideTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +535,7 @@
 				F1D1E9BA1DA91B150043C14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D1E9BB1DA91B150043C14C /* Build configuration list for PBXNativeTarget "VRN_GuideUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +544,7 @@
 				F1D1E9BD1DA91B150043C14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

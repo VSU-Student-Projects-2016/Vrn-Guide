@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EEBDABB5FD2EC2709F616007143E566A512CA73F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "11AA031F7A1AE22A4EBCFF7DDB1C4990E185C0E4" : 9223372036854775807,
+    "EEBDABB5FD2EC2709F616007143E566A512CA73F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "56BE3730-6895-4ED0-BE2C-D7F54739D75B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "11AA031F7A1AE22A4EBCFF7DDB1C4990E185C0E4" : "Vrn-Guide\/CCHMapClusterController\/",
+    "EEBDABB5FD2EC2709F616007143E566A512CA73F" : "Vrn-Guide\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VRN_Guide",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VRN_Guide.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/choefele\/CCHMapClusterController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11AA031F7A1AE22A4EBCFF7DDB1C4990E185C0E4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/VSU-Student-Projects-2016\/Vrn-Guide.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EEBDABB5FD2EC2709F616007143E566A512CA73F"
+    }
+  ]
+}

@@ -75,7 +75,7 @@
         <!--MapView-->
         <scene sceneID="R0e-4s-7EK">
             <objects>
-                <viewController title="MapView" id="jX5-Jz-GNj" sceneMemberID="viewController">
+                <viewController title="MapView" id="jX5-Jz-GNj" customClass="MapViewController" customModule="VRN_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ugS-QP-hy5"/>
                         <viewControllerLayoutGuide type="bottom" id="mtq-Jm-Jni"/>
@@ -84,17 +84,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MapView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jd4-5j-mW6">
-                                <frame key="frameInset" minX="128" minY="193" width="70" height="21"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MbK-lu-H5m">
+                                <frame key="frameInset" minY="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xf2-af-qsU"/>
+                    <connections>
+                        <outlet property="MyMap" destination="MbK-lu-H5m" id="73U-BS-O2Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdP-vK-Lwj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE23C0CC1DB246A7002DEFDD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE23C0CB1DB246A7002DEFDD /* MapViewController.swift */; };
+		AECE71001DB25C3300EF4E24 /* CCHCenterOfMassMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70E81DB25C3300EF4E24 /* CCHCenterOfMassMapClusterer.m */; };
+		AECE71011DB25C3300EF4E24 /* CCHFadeInOutMapAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70EA1DB25C3300EF4E24 /* CCHFadeInOutMapAnimator.m */; };
+		AECE71021DB25C3300EF4E24 /* CCHMapClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70ED1DB25C3300EF4E24 /* CCHMapClusterAnnotation.m */; };
+		AECE71031DB25C3300EF4E24 /* CCHMapClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70EF1DB25C3300EF4E24 /* CCHMapClusterController.m */; };
+		AECE71041DB25C3300EF4E24 /* CCHMapClusterControllerDebugPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70F11DB25C3300EF4E24 /* CCHMapClusterControllerDebugPolygon.m */; };
+		AECE71051DB25C3300EF4E24 /* CCHMapClusterControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70F41DB25C3300EF4E24 /* CCHMapClusterControllerUtils.m */; };
+		AECE71061DB25C3300EF4E24 /* CCHMapClusterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70F71DB25C3300EF4E24 /* CCHMapClusterOperation.m */; };
+		AECE71071DB25C3300EF4E24 /* CCHMapTree.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70F91DB25C3300EF4E24 /* CCHMapTree.m */; };
+		AECE71081DB25C3300EF4E24 /* CCHMapTreeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70FB1DB25C3300EF4E24 /* CCHMapTreeUtils.m */; };
+		AECE71091DB25C3300EF4E24 /* CCHMapViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70FD1DB25C3300EF4E24 /* CCHMapViewDelegateProxy.m */; };
+		AECE710A1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70FF1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.m */; };
 		F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9901DA91B150043C14C /* AppDelegate.swift */; };
 		F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9921DA91B150043C14C /* ViewController.swift */; };
 		F1D1E9961DA91B150043C14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D1E9941DA91B150043C14C /* Main.storyboard */; };
@@ -35,6 +47,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE23C0CB1DB246A7002DEFDD /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AECE70C21DB25AAB00EF4E24 /* VRN_Guide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VRN_Guide-Bridging-Header.h"; sourceTree = "<group>"; };
+		AECE70E71DB25C3300EF4E24 /* CCHCenterOfMassMapClusterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHCenterOfMassMapClusterer.h; path = CCHMapClusterController/CCHMapClusterController/CCHCenterOfMassMapClusterer.h; sourceTree = "<group>"; };
+		AECE70E81DB25C3300EF4E24 /* CCHCenterOfMassMapClusterer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHCenterOfMassMapClusterer.m; path = CCHMapClusterController/CCHMapClusterController/CCHCenterOfMassMapClusterer.m; sourceTree = "<group>"; };
+		AECE70E91DB25C3300EF4E24 /* CCHFadeInOutMapAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHFadeInOutMapAnimator.h; path = CCHMapClusterController/CCHMapClusterController/CCHFadeInOutMapAnimator.h; sourceTree = "<group>"; };
+		AECE70EA1DB25C3300EF4E24 /* CCHFadeInOutMapAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHFadeInOutMapAnimator.m; path = CCHMapClusterController/CCHMapClusterController/CCHFadeInOutMapAnimator.m; sourceTree = "<group>"; };
+		AECE70EB1DB25C3300EF4E24 /* CCHMapAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapAnimator.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapAnimator.h; sourceTree = "<group>"; };
+		AECE70EC1DB25C3300EF4E24 /* CCHMapClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterAnnotation.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterAnnotation.h; sourceTree = "<group>"; };
+		AECE70ED1DB25C3300EF4E24 /* CCHMapClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterAnnotation.m; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterAnnotation.m; sourceTree = "<group>"; };
+		AECE70EE1DB25C3300EF4E24 /* CCHMapClusterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterController.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterController.h; sourceTree = "<group>"; };
+		AECE70EF1DB25C3300EF4E24 /* CCHMapClusterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterController.m; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterController.m; sourceTree = "<group>"; };
+		AECE70F01DB25C3300EF4E24 /* CCHMapClusterControllerDebugPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerDebugPolygon.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterControllerDebugPolygon.h; sourceTree = "<group>"; };
+		AECE70F11DB25C3300EF4E24 /* CCHMapClusterControllerDebugPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterControllerDebugPolygon.m; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterControllerDebugPolygon.m; sourceTree = "<group>"; };
+		AECE70F21DB25C3300EF4E24 /* CCHMapClusterControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerDelegate.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterControllerDelegate.h; sourceTree = "<group>"; };
+		AECE70F31DB25C3300EF4E24 /* CCHMapClusterControllerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerUtils.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterControllerUtils.h; sourceTree = "<group>"; };
+		AECE70F41DB25C3300EF4E24 /* CCHMapClusterControllerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterControllerUtils.m; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterControllerUtils.m; sourceTree = "<group>"; };
+		AECE70F51DB25C3300EF4E24 /* CCHMapClusterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterer.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterer.h; sourceTree = "<group>"; };
+		AECE70F61DB25C3300EF4E24 /* CCHMapClusterOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterOperation.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterOperation.h; sourceTree = "<group>"; };
+		AECE70F71DB25C3300EF4E24 /* CCHMapClusterOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterOperation.m; path = CCHMapClusterController/CCHMapClusterController/CCHMapClusterOperation.m; sourceTree = "<group>"; };
+		AECE70F81DB25C3300EF4E24 /* CCHMapTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapTree.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapTree.h; sourceTree = "<group>"; };
+		AECE70F91DB25C3300EF4E24 /* CCHMapTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHMapTree.m; path = CCHMapClusterController/CCHMapClusterController/CCHMapTree.m; sourceTree = "<group>"; };
+		AECE70FA1DB25C3300EF4E24 /* CCHMapTreeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapTreeUtils.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapTreeUtils.h; sourceTree = "<group>"; };
+		AECE70FB1DB25C3300EF4E24 /* CCHMapTreeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHMapTreeUtils.m; path = CCHMapClusterController/CCHMapClusterController/CCHMapTreeUtils.m; sourceTree = "<group>"; };
+		AECE70FC1DB25C3300EF4E24 /* CCHMapViewDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHMapViewDelegateProxy.h; path = CCHMapClusterController/CCHMapClusterController/CCHMapViewDelegateProxy.h; sourceTree = "<group>"; };
+		AECE70FD1DB25C3300EF4E24 /* CCHMapViewDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHMapViewDelegateProxy.m; path = CCHMapClusterController/CCHMapClusterController/CCHMapViewDelegateProxy.m; sourceTree = "<group>"; };
+		AECE70FE1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHNearCenterMapClusterer.h; path = CCHMapClusterController/CCHMapClusterController/CCHNearCenterMapClusterer.h; sourceTree = "<group>"; };
+		AECE70FF1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHNearCenterMapClusterer.m; path = CCHMapClusterController/CCHMapClusterController/CCHNearCenterMapClusterer.m; sourceTree = "<group>"; };
 		F1D1E98D1DA91B150043C14C /* VRN_Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRN_Guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1E9901DA91B150043C14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D1E9921DA91B150043C14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +124,32 @@
 				F1D1E9AF1DA91B150043C14C /* VRN_GuideUITests */,
 				F1D1E98E1DA91B150043C14C /* Products */,
 				F1D1E9BE1DA92E570043C14C /* Frameworks */,
+				AECE70C21DB25AAB00EF4E24 /* VRN_Guide-Bridging-Header.h */,
+				AECE70E71DB25C3300EF4E24 /* CCHCenterOfMassMapClusterer.h */,
+				AECE70E81DB25C3300EF4E24 /* CCHCenterOfMassMapClusterer.m */,
+				AECE70E91DB25C3300EF4E24 /* CCHFadeInOutMapAnimator.h */,
+				AECE70EA1DB25C3300EF4E24 /* CCHFadeInOutMapAnimator.m */,
+				AECE70EB1DB25C3300EF4E24 /* CCHMapAnimator.h */,
+				AECE70EC1DB25C3300EF4E24 /* CCHMapClusterAnnotation.h */,
+				AECE70ED1DB25C3300EF4E24 /* CCHMapClusterAnnotation.m */,
+				AECE70EE1DB25C3300EF4E24 /* CCHMapClusterController.h */,
+				AECE70EF1DB25C3300EF4E24 /* CCHMapClusterController.m */,
+				AECE70F01DB25C3300EF4E24 /* CCHMapClusterControllerDebugPolygon.h */,
+				AECE70F11DB25C3300EF4E24 /* CCHMapClusterControllerDebugPolygon.m */,
+				AECE70F21DB25C3300EF4E24 /* CCHMapClusterControllerDelegate.h */,
+				AECE70F31DB25C3300EF4E24 /* CCHMapClusterControllerUtils.h */,
+				AECE70F41DB25C3300EF4E24 /* CCHMapClusterControllerUtils.m */,
+				AECE70F51DB25C3300EF4E24 /* CCHMapClusterer.h */,
+				AECE70F61DB25C3300EF4E24 /* CCHMapClusterOperation.h */,
+				AECE70F71DB25C3300EF4E24 /* CCHMapClusterOperation.m */,
+				AECE70F81DB25C3300EF4E24 /* CCHMapTree.h */,
+				AECE70F91DB25C3300EF4E24 /* CCHMapTree.m */,
+				AECE70FA1DB25C3300EF4E24 /* CCHMapTreeUtils.h */,
+				AECE70FB1DB25C3300EF4E24 /* CCHMapTreeUtils.m */,
+				AECE70FC1DB25C3300EF4E24 /* CCHMapViewDelegateProxy.h */,
+				AECE70FD1DB25C3300EF4E24 /* CCHMapViewDelegateProxy.m */,
+				AECE70FE1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.h */,
+				AECE70FF1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.m */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +168,7 @@
 			children = (
 				F1D1E9901DA91B150043C14C /* AppDelegate.swift */,
 				F1D1E9921DA91B150043C14C /* ViewController.swift */,
+				AE23C0CB1DB246A7002DEFDD /* MapViewController.swift */,
 				F1D1E9941DA91B150043C14C /* Main.storyboard */,
 				F1D1E9971DA91B150043C14C /* Assets.xcassets */,
 				F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */,
@@ -205,6 +271,7 @@
 				TargetAttributes = {
 					F1D1E98C1DA91B140043C14C = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -277,7 +344,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */,
+				AECE71071DB25C3300EF4E24 /* CCHMapTree.m in Sources */,
+				AECE71041DB25C3300EF4E24 /* CCHMapClusterControllerDebugPolygon.m in Sources */,
+				AE23C0CC1DB246A7002DEFDD /* MapViewController.swift in Sources */,
+				AECE71051DB25C3300EF4E24 /* CCHMapClusterControllerUtils.m in Sources */,
+				AECE71061DB25C3300EF4E24 /* CCHMapClusterOperation.m in Sources */,
 				F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */,
+				AECE71001DB25C3300EF4E24 /* CCHCenterOfMassMapClusterer.m in Sources */,
+				AECE71031DB25C3300EF4E24 /* CCHMapClusterController.m in Sources */,
+				AECE71081DB25C3300EF4E24 /* CCHMapTreeUtils.m in Sources */,
+				AECE71091DB25C3300EF4E24 /* CCHMapViewDelegateProxy.m in Sources */,
+				AECE71011DB25C3300EF4E24 /* CCHFadeInOutMapAnimator.m in Sources */,
+				AECE710A1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.m in Sources */,
+				AECE71021DB25C3300EF4E24 /* CCHMapClusterAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,10 +508,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VRN_Guide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PTeam.VRN-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VRN_Guide-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -441,10 +523,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = VRN_Guide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PTeam.VRN-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VRN_Guide-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -522,6 +606,7 @@
 				F1D1E9B71DA91B150043C14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D1E9B81DA91B150043C14C /* Build configuration list for PBXNativeTarget "VRN_GuideTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +615,7 @@
 				F1D1E9BA1DA91B150043C14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1D1E9BB1DA91B150043C14C /* Build configuration list for PBXNativeTarget "VRN_GuideUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +624,7 @@
 				F1D1E9BD1DA91B150043C14C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

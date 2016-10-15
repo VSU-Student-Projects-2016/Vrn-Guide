@@ -19,6 +19,7 @@
 		AECE71081DB25C3300EF4E24 /* CCHMapTreeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70FB1DB25C3300EF4E24 /* CCHMapTreeUtils.m */; };
 		AECE71091DB25C3300EF4E24 /* CCHMapViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70FD1DB25C3300EF4E24 /* CCHMapViewDelegateProxy.m */; };
 		AECE710A1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE70FF1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.m */; };
+		F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */; };
 		F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9901DA91B150043C14C /* AppDelegate.swift */; };
 		F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9921DA91B150043C14C /* ViewController.swift */; };
 		F1D1E9961DA91B150043C14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D1E9941DA91B150043C14C /* Main.storyboard */; };
@@ -74,7 +75,8 @@
 		AECE70FD1DB25C3300EF4E24 /* CCHMapViewDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHMapViewDelegateProxy.m; path = CCHMapClusterController/CCHMapClusterController/CCHMapViewDelegateProxy.m; sourceTree = "<group>"; };
 		AECE70FE1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCHNearCenterMapClusterer.h; path = CCHMapClusterController/CCHMapClusterController/CCHNearCenterMapClusterer.h; sourceTree = "<group>"; };
 		AECE70FF1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCHNearCenterMapClusterer.m; path = CCHMapClusterController/CCHMapClusterController/CCHNearCenterMapClusterer.m; sourceTree = "<group>"; };
-		F1D1E98D1DA91B150043C14C /* VRN_Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRN_Guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+        F1D1E98D1DA91B150043C14C /* VRN_Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRN_Guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1E9901DA91B150043C14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D1E9921DA91B150043C14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1D1E9951DA91B150043C14C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				F1D1E9921DA91B150043C14C /* ViewController.swift */,
 				AE23C0CB1DB246A7002DEFDD /* MapViewController.swift */,
 				F1D1E9941DA91B150043C14C /* Main.storyboard */,
+				F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */,
 				F1D1E9971DA91B150043C14C /* Assets.xcassets */,
 				F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */,
 				F1D1E99C1DA91B150043C14C /* Info.plist */,
@@ -357,6 +360,7 @@
 				AECE71011DB25C3300EF4E24 /* CCHFadeInOutMapAnimator.m in Sources */,
 				AECE710A1DB25C3300EF4E24 /* CCHNearCenterMapClusterer.m in Sources */,
 				AECE71021DB25C3300EF4E24 /* CCHMapClusterAnnotation.m in Sources */,
+				F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

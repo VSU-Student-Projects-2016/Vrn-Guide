@@ -10,7 +10,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "56BE3730-6895-4ED0-BE2C-D7F54739D75B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "11AA031F7A1AE22A4EBCFF7DDB1C4990E185C0E4" : "Vrn-Guide\/CCHMapClusterController\/",
-    "EEBDABB5FD2EC2709F616007143E566A512CA73F" : "Vrn-Guide\/"
+    "EEBDABB5FD2EC2709F616007143E566A512CA73F" : "VRN_Guide\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "VRN_Guide",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,

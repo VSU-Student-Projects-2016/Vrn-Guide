@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CCHMapClusterController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VRN_Guide.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VRN_GuideTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-VRN_GuideUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>20863207A733D0EB9ECFA70FC52155A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>51342C8C4B6B1204FA41C97C2B814046</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89AD13529F3D133F1B9548298D3EE89E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D0C9FA5A5B5C1709F9CE9E9F982D275E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

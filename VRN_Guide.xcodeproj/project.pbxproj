@@ -51,6 +51,7 @@
 		C75D9DADBDB188A7939F026D /* Pods-VRN_Guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_Guide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_Guide/Pods-VRN_Guide.debug.xcconfig"; sourceTree = "<group>"; };
 		E89ACDFFB6C21846F1EE16A2 /* Pods-VRN_GuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_GuideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_GuideTests/Pods-VRN_GuideTests.release.xcconfig"; sourceTree = "<group>"; };
 		F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		F1C464641DBB807000C7DCA3 /* VRN_Guide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VRN_Guide-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		F1D1E98D1DA91B150043C14C /* VRN_Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRN_Guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1E9901DA91B150043C14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D1E9921DA91B150043C14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 				F1D1E9921DA91B150043C14C /* ViewController.swift */,
 				AE23C0CB1DB246A7002DEFDD /* MapViewController.swift */,
 				F1D1E9941DA91B150043C14C /* Main.storyboard */,
+				F1C464641DBB807000C7DCA3 /* VRN_Guide-Bridging-Header.h */,
 				F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */,
 				F1D1E9971DA91B150043C14C /* Assets.xcassets */,
 				F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */,

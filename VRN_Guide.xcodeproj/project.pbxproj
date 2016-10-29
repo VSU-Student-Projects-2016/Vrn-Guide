@@ -11,8 +11,8 @@
 		AE89A6A91DBB950A0016972B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE89A6A81DBB950A0016972B /* MapViewController.swift */; };
 		AFD98C6A95D479284BA03048 /* Pods_VRN_Guide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7081CE0F7FA38EB069321E27 /* Pods_VRN_Guide.framework */; };
 		CE8CF63106BCD60ECDAEC6E4 /* Pods_VRN_GuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205BE2CCB6306A3447E2C4E2 /* Pods_VRN_GuideTests.framework */; };
+		F155332C1DC4CA8D00C9BD08 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155332B1DC4CA8D00C9BD08 /* Item.swift */; };
 		F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */; };
-		F1C464681DBBA18800C7DCA3 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C464671DBBA18800C7DCA3 /* MyCell.swift */; };
 		F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9901DA91B150043C14C /* AppDelegate.swift */; };
 		F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9921DA91B150043C14C /* ViewController.swift */; };
 		F1D1E9961DA91B150043C14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D1E9941DA91B150043C14C /* Main.storyboard */; };
@@ -21,6 +21,7 @@
 		F1D1E9A61DA91B150043C14C /* VRN_GuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9A51DA91B150043C14C /* VRN_GuideTests.swift */; };
 		F1D1E9B11DA91B150043C14C /* VRN_GuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9B01DA91B150043C14C /* VRN_GuideUITests.swift */; };
 		F1D1E9C01DA92E570043C14C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D1E9BF1DA92E570043C14C /* MapKit.framework */; };
+		F1FDEECA1DC4AAE700F457A5 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FDEEC91DC4AAE700F457A5 /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +52,9 @@
 		BBD7DDFE91331F686BA042E1 /* Pods-VRN_Guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_Guide.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_Guide/Pods-VRN_Guide.release.xcconfig"; sourceTree = "<group>"; };
 		C75D9DADBDB188A7939F026D /* Pods-VRN_Guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_Guide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_Guide/Pods-VRN_Guide.debug.xcconfig"; sourceTree = "<group>"; };
 		E89ACDFFB6C21846F1EE16A2 /* Pods-VRN_GuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_GuideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_GuideTests/Pods-VRN_GuideTests.release.xcconfig"; sourceTree = "<group>"; };
+		F155332B1DC4CA8D00C9BD08 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		F1C464641DBB807000C7DCA3 /* VRN_Guide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VRN_Guide-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
-		F1C464671DBBA18800C7DCA3 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		F1D1E98D1DA91B150043C14C /* VRN_Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRN_Guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1E9901DA91B150043C14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D1E9921DA91B150043C14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 		F1D1E9B01DA91B150043C14C /* VRN_GuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRN_GuideUITests.swift; sourceTree = "<group>"; };
 		F1D1E9B21DA91B150043C14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1D1E9BF1DA92E570043C14C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F1FDEEC91DC4AAE700F457A5 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,13 +142,14 @@
 				F1D1E9901DA91B150043C14C /* AppDelegate.swift */,
 				F1D1E9921DA91B150043C14C /* ViewController.swift */,
 				F1D1E9941DA91B150043C14C /* Main.storyboard */,
+				F1FDEEC91DC4AAE700F457A5 /* ItemTableViewCell.swift */,
 				F1C464641DBB807000C7DCA3 /* VRN_Guide-Bridging-Header.h */,
 				AE89A6A81DBB950A0016972B /* MapViewController.swift */,
 				F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */,
+				F155332B1DC4CA8D00C9BD08 /* Item.swift */,
 				F1D1E9971DA91B150043C14C /* Assets.xcassets */,
 				F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */,
 				F1D1E99C1DA91B150043C14C /* Info.plist */,
-				F1C464671DBBA18800C7DCA3 /* MyCell.swift */,
 			);
 			path = VRN_Guide;
 			sourceTree = "<group>";
@@ -468,10 +471,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */,
-				F1C464681DBBA18800C7DCA3 /* MyCell.swift in Sources */,
-				AE23C0CC1DB246A7002DEFDD /* MapViewController.swift in Sources */,
 				F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */,
+				F1FDEECA1DC4AAE700F457A5 /* ItemTableViewCell.swift in Sources */,
 				F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */,
+				F155332C1DC4CA8D00C9BD08 /* Item.swift in Sources */,
 				AE89A6A91DBB950A0016972B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,11 +15,6 @@ class MapViewController: UIViewController {
 
   
     @IBOutlet weak var MyMap: MKMapView!
-    var p : CCHMapClusterController
-   
-    init() {
-        self.p = CCHMapClusterController(mapView: MyMap)
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

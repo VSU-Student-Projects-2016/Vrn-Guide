@@ -11,14 +11,14 @@ import UIKit
 class ItemViewController: UITableViewController {
 
     @IBOutlet var ItemTable: UITableView!
+    
+    var items=[Item]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        //load sample data
+        loadSamples()
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,8 +26,23 @@ class ItemViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func loadSamples()
+    {
+        let photo1 = UIImage(named: "cat1")
+        let item1 = Item.init(name: "this is a cat", context: "He is cute", image: photo1!)
+        
+        let photo2 = UIImage(named: "cat2")
+        let item2 = Item.init(name: "this is a cat", context: "He is cute", image: photo2!)
+        
+        let photo3 = UIImage(named: "cat3")
+        let item3 = Item.init(name: "this is a cat", context: "He is cute", image: photo3!)
+        
+        
+        items += [item1, item2, item3]
+    }
+    
     // MARK: - Table view data source
-
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -35,17 +50,20 @@ class ItemViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 10
+        return items.count
     }
-    
 
   
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "MyTestCell")
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> ItemTableViewCell {
         
-        cell.textLabel!.text = "Row #\(indexPath.row)"
-        cell.detailTextLabel!.text = "Subtitle #\(indexPath.row)"
-
+        let cellIdentifier = "ItemTableViewCell"
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! ItemTableViewCell
+    
+        cell.ItemName.text=items[indexPath.row].name
+        cell.ItemContext.text=items[indexPath.row].context
+        cell.ItemPhoto.image=items[indexPath.row].image
+    
         return cell
     }
   

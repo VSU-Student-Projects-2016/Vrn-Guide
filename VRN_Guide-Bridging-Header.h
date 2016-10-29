@@ -8,6 +8,6 @@
 
 #ifndef VRN_Guide_Bridging_Header_h
 #define VRN_Guide_Bridging_Header_h
-
+#import <CCHMapClusterController/CCHMapClusterController.h>
 
 #endif /* VRN_Guide_Bridging_Header_h */

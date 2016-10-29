@@ -12,6 +12,7 @@
 		AFD98C6A95D479284BA03048 /* Pods_VRN_Guide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7081CE0F7FA38EB069321E27 /* Pods_VRN_Guide.framework */; };
 		CE8CF63106BCD60ECDAEC6E4 /* Pods_VRN_GuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205BE2CCB6306A3447E2C4E2 /* Pods_VRN_GuideTests.framework */; };
 		F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */; };
+		F1C464681DBBA18800C7DCA3 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C464671DBBA18800C7DCA3 /* MyCell.swift */; };
 		F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9901DA91B150043C14C /* AppDelegate.swift */; };
 		F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9921DA91B150043C14C /* ViewController.swift */; };
 		F1D1E9961DA91B150043C14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D1E9941DA91B150043C14C /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		E89ACDFFB6C21846F1EE16A2 /* Pods-VRN_GuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_GuideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_GuideTests/Pods-VRN_GuideTests.release.xcconfig"; sourceTree = "<group>"; };
 		F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		F1C464641DBB807000C7DCA3 /* VRN_Guide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VRN_Guide-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		F1C464671DBBA18800C7DCA3 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		F1D1E98D1DA91B150043C14C /* VRN_Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRN_Guide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1E9901DA91B150043C14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D1E9921DA91B150043C14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				F1D1E9971DA91B150043C14C /* Assets.xcassets */,
 				F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */,
 				F1D1E99C1DA91B150043C14C /* Info.plist */,
+				F1C464671DBBA18800C7DCA3 /* MyCell.swift */,
 			);
 			path = VRN_Guide;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */,
+				F1C464681DBBA18800C7DCA3 /* MyCell.swift in Sources */,
 				AE23C0CC1DB246A7002DEFDD /* MapViewController.swift in Sources */,
 				F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */,
 				F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */,

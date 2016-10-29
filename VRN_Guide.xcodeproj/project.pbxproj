@@ -469,7 +469,6 @@
 			files = (
 				F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */,
 				F1C464681DBBA18800C7DCA3 /* MyCell.swift in Sources */,
-				AE23C0CC1DB246A7002DEFDD /* MapViewController.swift in Sources */,
 				F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */,
 				F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */,
 				AE89A6A91DBB950A0016972B /* MapViewController.swift in Sources */,

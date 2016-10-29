@@ -15,19 +15,15 @@ class MapViewController: UIViewController {
 
   
     @IBOutlet weak var MyMap: MKMapView!
-    var p : CCHMapClusterController
-   
-    init() {
-        self.p = CCHMapClusterController(mapView: MyMap)
-    }
-    
+    var p: CCHMapClusterController = CCHMapClusterController.init()
     override func viewDidLoad() {
         super.viewDidLoad()
         //51.675611, 39.211179
-        
+        self.p = CCHMapClusterController.init(mapView: self.MyMap)
+
         let startLocation = CLLocationCoordinate2D(latitude: 51.675611, longitude: 39.211179)
         let sl = CLLocationCoordinate2D (latitude:51.674773, longitude: 39.209151)
-        let span = MKCoordinateSpanMake(0.5, 0.5)
+        let span = MKCoordinateSpanMake(0.3, 0.3)
         let region = MKCoordinateRegion(center: sl, span: span)
         
         MyMap.setRegion(region, animated: true)
@@ -35,19 +31,16 @@ class MapViewController: UIViewController {
         let dropPin = MKPointAnnotation()
         dropPin.coordinate = sl
         dropPin.title = "New York City"
-        MyMap.addAnnotation(dropPin)
+        //MyMap.addAnnotation(dropPin)
         
         let dropPin2 = MKPointAnnotation()
         dropPin2.coordinate = startLocation
         dropPin2.title = "New York City2"
-        MyMap.addAnnotation(dropPin2)
-
-        //self.mapClusterController = [[CCHMapClusterController alloc] initWithMapView:self.mapView];
-        //[self.mapClusterController addAnnotations:annotations withCompletionHandler:NULL];
-       
-
+        //MyMap.addAnnotation(dropPin2)
         
-        // Do any additional setup after loading the view.
+        p.addAnnotations([dropPin, dropPin2], withCompletionHandler: nil)
+        
+       
     }
     
     func LoadPoint(start: CLLocation){

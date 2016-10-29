@@ -38,7 +38,8 @@ class MapViewController: UIViewController {
         dropPin2.title = "New York City2"
         //MyMap.addAnnotation(dropPin2)
         
-        p.addAnnotations([dropPin, dropPin2], withCompletionHandler: nil)
+        
+        p.addAnnotations([pin, dropPin2], withCompletionHandler: nil)
         
        
     }

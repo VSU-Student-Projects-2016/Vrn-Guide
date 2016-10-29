@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C147B74842B4C7EFC530369 /* Pods_VRN_GuideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF314A1A1337B4A0D93FA95 /* Pods_VRN_GuideUITests.framework */; };
-		AE23C0CC1DB246A7002DEFDD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE23C0CB1DB246A7002DEFDD /* MapViewController.swift */; };
+		AE89A6A91DBB950A0016972B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE89A6A81DBB950A0016972B /* MapViewController.swift */; };
 		AFD98C6A95D479284BA03048 /* Pods_VRN_Guide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7081CE0F7FA38EB069321E27 /* Pods_VRN_Guide.framework */; };
 		CE8CF63106BCD60ECDAEC6E4 /* Pods_VRN_GuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205BE2CCB6306A3447E2C4E2 /* Pods_VRN_GuideTests.framework */; };
 		F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */; };
@@ -47,7 +47,7 @@
 		52C45E8E78CAD867DDC37435 /* Pods-VRN_GuideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_GuideTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_GuideTests/Pods-VRN_GuideTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B530A33E26649B8CAD7D7D5 /* Pods-VRN_GuideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_GuideUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_GuideUITests/Pods-VRN_GuideUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7081CE0F7FA38EB069321E27 /* Pods_VRN_Guide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRN_Guide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE23C0CB1DB246A7002DEFDD /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AE89A6A81DBB950A0016972B /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BBD7DDFE91331F686BA042E1 /* Pods-VRN_Guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_Guide.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_Guide/Pods-VRN_Guide.release.xcconfig"; sourceTree = "<group>"; };
 		C75D9DADBDB188A7939F026D /* Pods-VRN_Guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_Guide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_Guide/Pods-VRN_Guide.debug.xcconfig"; sourceTree = "<group>"; };
 		E89ACDFFB6C21846F1EE16A2 /* Pods-VRN_GuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_GuideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_GuideTests/Pods-VRN_GuideTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,9 +139,9 @@
 			children = (
 				F1D1E9901DA91B150043C14C /* AppDelegate.swift */,
 				F1D1E9921DA91B150043C14C /* ViewController.swift */,
-				AE23C0CB1DB246A7002DEFDD /* MapViewController.swift */,
 				F1D1E9941DA91B150043C14C /* Main.storyboard */,
 				F1C464641DBB807000C7DCA3 /* VRN_Guide-Bridging-Header.h */,
+				AE89A6A81DBB950A0016972B /* MapViewController.swift */,
 				F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */,
 				F1D1E9971DA91B150043C14C /* Assets.xcassets */,
 				F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */,
@@ -472,6 +472,7 @@
 				AE23C0CC1DB246A7002DEFDD /* MapViewController.swift in Sources */,
 				F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */,
 				F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */,
+				AE89A6A91DBB950A0016972B /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

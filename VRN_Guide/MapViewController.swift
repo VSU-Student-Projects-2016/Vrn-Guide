@@ -40,7 +40,7 @@ class MapViewController: UIViewController {
         //MyMap.addAnnotation(dropPin2)
         
         
-        p.addAnnotations([pin, dropPin2], withCompletionHandler: nil)
+        p.addAnnotations([dropPin, dropPin2], withCompletionHandler: nil)
         
        
     }

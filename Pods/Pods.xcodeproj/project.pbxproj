@@ -7,130 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03940D311B82610F5BF89800FD6249D4 /* CCHMapClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C561179A9B9AE968C9E4860179E85E9 /* CCHMapClusterAnnotation.m */; };
-		0E22EEC54AFB2C13FA6AB51CDC9261CA /* CCHNearCenterMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = A8ABEC204084197B3E46B78FEF75C9BD /* CCHNearCenterMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11F6325AEA5B5F34CE25DE0D22D2C22F /* Pods-VRN_Guide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F6A3EC3E116EF581E49F792D7D887A /* Pods-VRN_Guide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		220A9EBD252D6283B0E5FEBE1FA7D354 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40870FA3DF5DD6AD4BF8D21A9D6E9804 /* MapKit.framework */; };
+		03940D311B82610F5BF89800FD6249D4 /* CCHMapClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E58C489EE599B87E978421B5126B81C7 /* CCHMapClusterAnnotation.m */; };
+		0D25E64EA35E4E2854E0B9C545B2CA54 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A84C51660ACA8BFB22EA95D6559801 /* CoreLocation.framework */; };
+		0E22EEC54AFB2C13FA6AB51CDC9261CA /* CCHNearCenterMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D319D01038FF2235A15BD8708137ED6 /* CCHNearCenterMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		220A9EBD252D6283B0E5FEBE1FA7D354 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7433CFA45B4035D8B54511EBBD29D97 /* MapKit.framework */; };
 		24C0B9345D48543AF86938368269EC26 /* Pods-VRN_GuideUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5103C3CA6372843277BE01B3B19B0977 /* Pods-VRN_GuideUITests-dummy.m */; };
-		30536225F1DD941F42DAEAC3388BF816 /* CCHFadeInOutMapAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D175CFDF61682EC9DAF886FD180890 /* CCHFadeInOutMapAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		381647580DCE9C43EE3B2D12194C841F /* CCHCenterOfMassMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AACE300F970EA99C0089A41DDD2B3DD /* CCHCenterOfMassMapClusterer.m */; };
-		3828AB2E02DCB6339D2207BC4BDD9A64 /* CCHMapClusterControllerDebugPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 340C70C25ADC2A47400C33B23515AF3B /* CCHMapClusterControllerDebugPolygon.m */; };
+		30536225F1DD941F42DAEAC3388BF816 /* CCHFadeInOutMapAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7840ED52D1F7D4CBFBFA4DB1736F229B /* CCHFadeInOutMapAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		381647580DCE9C43EE3B2D12194C841F /* CCHCenterOfMassMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DFE2011974B36AD3C266CA8EE688BC /* CCHCenterOfMassMapClusterer.m */; };
+		3828AB2E02DCB6339D2207BC4BDD9A64 /* CCHMapClusterControllerDebugPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 148409BDC8FE708AF3C34FFB2E304E97 /* CCHMapClusterControllerDebugPolygon.m */; };
 		3FACAD47F440334185A535ECDA1A71E5 /* Pods-VRN_GuideUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA6E2293E4EA305D4E6F86C35E4E30B /* Pods-VRN_GuideUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A8283BFE9AA4D3C3F18F1913F217E53 /* CCHMapClusterControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DC55DE0DE1903AB0BA075733ED1B1B92 /* CCHMapClusterControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5293D59E1321453F0BC2BE248155F2BD /* CCHMapClusterControllerUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AC4F80942B36923623B913F310EB7D /* CCHMapClusterControllerUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		560BE9D9FEBECA2555121F06B3BE7093 /* CCHMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4157332D24DAC6952C05E00D6BDB66AD /* CCHMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DBF36CF047C1F44DAFDDFB3975E1248 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2358F16486F411119537C5E116932219 /* Foundation.framework */; };
-		67A8286793564593FB15C4019D3DA3CD /* CCHFadeInOutMapAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3931A46B98A6211C51131D11E0CA3DC2 /* CCHFadeInOutMapAnimator.m */; };
-		6B3600DC70E36674201EE3B8B8960735 /* CCHMapViewDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A3CC6B7F5A5252239CDA16E50EE3DF /* CCHMapViewDelegateProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		6BE4952C042928CB59DCA47027647ED2 /* CCHMapClusterController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC26BFFF6505DF2633A08A0BC74710B /* CCHMapClusterController-dummy.m */; };
-		6EDDA9EC4C3CA84D4A6BEC8FAC295383 /* CCHMapViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40886F346F9C4D1E0F5DD6A4DEA1ECF0 /* CCHMapViewDelegateProxy.m */; };
-		762EA81FDDAFC38037873A3A2DA257D3 /* CCHCenterOfMassMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 326B106EFA898C70307CA0B9F90985AC /* CCHCenterOfMassMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		429FF99EAEA04D827001EF80E450298F /* JPSThumbnailAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC95854CE0E65D18DEB5D558FEC3BD16 /* JPSThumbnailAnnotationView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4A8283BFE9AA4D3C3F18F1913F217E53 /* CCHMapClusterControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 19479D916A027F8DE76F063CDAD6B416 /* CCHMapClusterControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5089EB7FE13E85D1659C8BCBAFD685BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FDEE0B5E907B8224C59986BA17CEF4 /* QuartzCore.framework */; };
+		5293D59E1321453F0BC2BE248155F2BD /* CCHMapClusterControllerUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C105349F2F127177F4EDB4A3E617764A /* CCHMapClusterControllerUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		560BE9D9FEBECA2555121F06B3BE7093 /* CCHMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1483B263F74D498DD648DAF80A0C982E /* CCHMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56FE2FD35984E4FE41C755E734BA0B73 /* JPSThumnail.m in Sources */ = {isa = PBXBuildFile; fileRef = C02B9EE4C9FC9FBE78A6063DD4B59D09 /* JPSThumnail.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57FA1A84DFA26087AA7440DC037A38B9 /* Pods-VRN_Guide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F6A3EC3E116EF581E49F792D7D887A /* Pods-VRN_Guide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B1ED40C0F2BD1E68514321F3A02666 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3377266ED7EB680F5B874876448263A /* Foundation.framework */; };
+		5D6DCC9753637ED1063050B856805CF4 /* JPSThumbnailAnnotation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4585A3B71CE403B107F45D0EA01CB31 /* JPSThumbnailAnnotation-dummy.m */; };
+		63EC8AD3BE4682E73CABCAAF7ECA80F5 /* JPSThumbnailAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5AAEFB915F191E29ACAFB77D9D7C82 /* JPSThumbnailAnnotationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A8286793564593FB15C4019D3DA3CD /* CCHFadeInOutMapAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F5566EF37A3E8A313F23B5D11A9A6F /* CCHFadeInOutMapAnimator.m */; };
+		6B3600DC70E36674201EE3B8B8960735 /* CCHMapViewDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 700C5FDAFAAFEAEBCC427E8CE6B77CD0 /* CCHMapViewDelegateProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6BE4952C042928CB59DCA47027647ED2 /* CCHMapClusterController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8BE990FE5F4EF02AEBDF79D653E0AE /* CCHMapClusterController-dummy.m */; };
+		6EDDA9EC4C3CA84D4A6BEC8FAC295383 /* CCHMapViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D20C606B2DD21B64170E0525AAA742 /* CCHMapViewDelegateProxy.m */; };
+		762EA81FDDAFC38037873A3A2DA257D3 /* CCHCenterOfMassMapClusterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6CAB7DA611EACFAF7AA69E1EA0FC71 /* CCHCenterOfMassMapClusterer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AF2B6471770F2E0235A82EE5F5084FD /* Pods-VRN_GuideTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67FB0A915B538B0BFF7D1CB031C06420 /* Pods-VRN_GuideTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FC318427F0000C36D8B4F3B115FF5EE /* CCHMapTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4203A7091C1A38CF9002470C15AB0E29 /* CCHMapTree.m */; };
-		8B03E40FEA476F659F4ABB18782C4CE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1494287433DE58DAEE7F19EB6AD38F6 /* CoreLocation.framework */; };
-		9A32F0F0D88BAEE8AF4EFB203EADA547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2358F16486F411119537C5E116932219 /* Foundation.framework */; };
-		9B89A3BCAF235ADC9539DF80B99A4A27 /* CCHMapClusterControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEB3C7DFB8CB730E4D7CDF230D27C09 /* CCHMapClusterControllerUtils.m */; };
-		9CAF429EEA36BE37BF38A3FF4C5E40D2 /* CCHMapClusterController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 204B1EF8DF758A708866989E173C54BA /* CCHMapClusterController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFFDB389C4CBF27179061BBBD7302DC4 /* CCHMapClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC054EC5476435D5A1224F8AF80CE9E /* CCHMapClusterController.m */; };
-		B03C6ACC32956F9499C1D66490226B6B /* CCHMapTreeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEB2AACBB1B28196E5A3A20804828FD /* CCHMapTreeUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B76676A033B714D1BC04EB7C42965975 /* Pods-VRN_Guide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9362BD047BDFDB879BBDD288E2BC2 /* Pods-VRN_Guide-dummy.m */; };
+		7FC318427F0000C36D8B4F3B115FF5EE /* CCHMapTree.m in Sources */ = {isa = PBXBuildFile; fileRef = A36EDA7238236C806F533508E5B384E3 /* CCHMapTree.m */; };
+		8B03E40FEA476F659F4ABB18782C4CE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7A84C51660ACA8BFB22EA95D6559801 /* CoreLocation.framework */; };
+		996EB21E0B00E5D3E98766EADC6D5E87 /* JPSThumbnailAnnotation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94264CE21030E5203083A08297E6F29F /* JPSThumbnailAnnotation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A32F0F0D88BAEE8AF4EFB203EADA547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3377266ED7EB680F5B874876448263A /* Foundation.framework */; };
+		9B89A3BCAF235ADC9539DF80B99A4A27 /* CCHMapClusterControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E1096B8EF238737084647B3143EFC70D /* CCHMapClusterControllerUtils.m */; };
+		9CAF429EEA36BE37BF38A3FF4C5E40D2 /* CCHMapClusterController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D37C9BFEEEAE2D4F2BBF403561E44908 /* CCHMapClusterController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFFDB389C4CBF27179061BBBD7302DC4 /* CCHMapClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D6773366C6A48391F6E53714227614 /* CCHMapClusterController.m */; };
+		B03C6ACC32956F9499C1D66490226B6B /* CCHMapTreeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE6FA2623E6D72DE7680420A3E0AF32 /* CCHMapTreeUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BD252094F0CBFCD56A2D1CC8A2EDDF00 /* Pods-VRN_GuideTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9064373996B7FA698763DBF6E3D220E8 /* Pods-VRN_GuideTests-dummy.m */; };
-		BE250474D5AE983BB48603CEB1C9B5B0 /* CCHMapClusterController.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A2A075B97DABDACA3A27D95FFF5E28 /* CCHMapClusterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEB30F55BF75CBBA21C853409377B8E5 /* CCHNearCenterMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D50A5C02E3FB9A3D14FAD94C8DFB2D /* CCHNearCenterMapClusterer.m */; };
-		C476633889E594F1D5705607E237F5FA /* CCHMapTreeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF3612AD0B8E791422B4BD0074DB6A5 /* CCHMapTreeUtils.m */; };
-		C5F3F4EE701C35175188296212FC9342 /* CCHMapClusterControllerDebugPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8ECB5AF20CB904DDB53EBE6724F4D4 /* CCHMapClusterControllerDebugPolygon.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		DBECB0784F5BF12DA14EFCB168094450 /* CCHMapClusterOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 64528EB762123A4FCEB80D1498C1FFBC /* CCHMapClusterOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		E42C1DD6F6C0BE7582A370B19F1E9B65 /* CCHMapTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C584BECB55C0EF71100B6E6EF94F456 /* CCHMapTree.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		EA14E77903BA2119E9AFFDCCF80C4E3B /* CCHMapClusterAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FC7225FCC1679A137533B16DD7CCB87 /* CCHMapClusterAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC0129C6E6E4F360C6D846DA88E59C1A /* CCHMapClusterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B04E54F6CDEB2E0B59F9552D744CAED1 /* CCHMapClusterOperation.m */; };
-		F0445F570124DA4772022F5DFDF3FF59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2358F16486F411119537C5E116932219 /* Foundation.framework */; };
-		F5B01685FCAD818B4D87D04D9AAC2EAC /* CCHMapAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B962F9205500CAB741BCFD77685145B /* CCHMapAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FCA9D18B236B3E2CD32B40D4AB1291AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2358F16486F411119537C5E116932219 /* Foundation.framework */; };
+		BE250474D5AE983BB48603CEB1C9B5B0 /* CCHMapClusterController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB3BD7CB4278E33B7FC9B1CF002E716 /* CCHMapClusterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB30F55BF75CBBA21C853409377B8E5 /* CCHNearCenterMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BE84D401FA8AFCD33D6DBFEE642F11 /* CCHNearCenterMapClusterer.m */; };
+		C476633889E594F1D5705607E237F5FA /* CCHMapTreeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 76885EC762C211E53A869BAF90BC4A7C /* CCHMapTreeUtils.m */; };
+		C5F3F4EE701C35175188296212FC9342 /* CCHMapClusterControllerDebugPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 44F115984CE8169CC2472D2E95CFA0A9 /* CCHMapClusterControllerDebugPolygon.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D738C7660DE2D94785F66D34B762B10D /* JPSThumbnailAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D65FE56551584A466BC2845AF81C6 /* JPSThumbnailAnnotation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9D3E37A698F0873E405759CFFE07BDF /* JPSThumbnail.h in Headers */ = {isa = PBXBuildFile; fileRef = BE63F3A1B070F9EB5F585A0FDA056A61 /* JPSThumbnail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBECB0784F5BF12DA14EFCB168094450 /* CCHMapClusterOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8977964C879FB8BE01DF2A9CF6059F9C /* CCHMapClusterOperation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E42C1DD6F6C0BE7582A370B19F1E9B65 /* CCHMapTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 030FA33696891798AFA6E99617F01E25 /* CCHMapTree.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EA14E77903BA2119E9AFFDCCF80C4E3B /* CCHMapClusterAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBE4B4485EED6993B144942F3BFFEEF /* CCHMapClusterAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC0129C6E6E4F360C6D846DA88E59C1A /* CCHMapClusterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 172CF893B1D8779F1AF70B738BD8E57A /* CCHMapClusterOperation.m */; };
+		F0445F570124DA4772022F5DFDF3FF59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3377266ED7EB680F5B874876448263A /* Foundation.framework */; };
+		F5B01685FCAD818B4D87D04D9AAC2EAC /* CCHMapAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFCDCE29FAC79CFF6CD8048370BBC7C /* CCHMapAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F946C77E867064233CED22E333091C65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3377266ED7EB680F5B874876448263A /* Foundation.framework */; };
+		F982F72FCCD12BE49AD4688BBC1AEBD2 /* JPSThumbnailAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = B79852CAC408326DE3F2BD5007A244EF /* JPSThumbnailAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB7FF0983761A832B91D4618388A222B /* Pods-VRN_Guide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C9362BD047BDFDB879BBDD288E2BC2 /* Pods-VRN_Guide-dummy.m */; };
+		FCA9D18B236B3E2CD32B40D4AB1291AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3377266ED7EB680F5B874876448263A /* Foundation.framework */; };
+		FDB78D036A1F33304B845C1267591646 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7433CFA45B4035D8B54511EBBD29D97 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		034F89EF363F29BE139A808BC714E3C7 /* PBXContainerItemProxy */ = {
+		9D55AB874B53C30E47FFD2C0BB0D379D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 89AD13529F3D133F1B9548298D3EE89E;
 			remoteInfo = CCHMapClusterController;
 		};
+		E18846BC8A4389CBA25877F8D69CE9BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E90EC2A11CCE6D2117DE249C74A9160;
+			remoteInfo = JPSThumbnailAnnotation;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D175CFDF61682EC9DAF886FD180890 /* CCHFadeInOutMapAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHFadeInOutMapAnimator.h; path = CCHMapClusterController/CCHFadeInOutMapAnimator.h; sourceTree = "<group>"; };
+		030FA33696891798AFA6E99617F01E25 /* CCHMapTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapTree.h; path = CCHMapClusterController/CCHMapTree.h; sourceTree = "<group>"; };
+		070F93B6FB6A39D77018764367717793 /* CCHMapClusterController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCHMapClusterController-prefix.pch"; sourceTree = "<group>"; };
 		0AAA46436A943B3CD7CD18FFFBB69185 /* Pods-VRN_Guide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRN_Guide.modulemap"; sourceTree = "<group>"; };
-		0C584BECB55C0EF71100B6E6EF94F456 /* CCHMapTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapTree.h; path = CCHMapClusterController/CCHMapTree.h; sourceTree = "<group>"; };
-		0CC054EC5476435D5A1224F8AF80CE9E /* CCHMapClusterController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterController.m; path = CCHMapClusterController/CCHMapClusterController.m; sourceTree = "<group>"; };
-		1C2497AC92BF88433782AD645B297672 /* CCHMapClusterController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCHMapClusterController-prefix.pch"; sourceTree = "<group>"; };
-		204B1EF8DF758A708866989E173C54BA /* CCHMapClusterController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCHMapClusterController-umbrella.h"; sourceTree = "<group>"; };
-		211BDAF297A185687B974CF158F76156 /* Pods_VRN_GuideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRN_GuideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2358F16486F411119537C5E116932219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		260AAADD8B461882CFAF1B21E44E7C96 /* CCHMapClusterController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CCHMapClusterController.modulemap; sourceTree = "<group>"; };
+		0BBE4B4485EED6993B144942F3BFFEEF /* CCHMapClusterAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterAnnotation.h; path = CCHMapClusterController/CCHMapClusterAnnotation.h; sourceTree = "<group>"; };
+		1483B263F74D498DD648DAF80A0C982E /* CCHMapClusterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterer.h; path = CCHMapClusterController/CCHMapClusterer.h; sourceTree = "<group>"; };
+		148409BDC8FE708AF3C34FFB2E304E97 /* CCHMapClusterControllerDebugPolygon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterControllerDebugPolygon.m; path = CCHMapClusterController/CCHMapClusterControllerDebugPolygon.m; sourceTree = "<group>"; };
+		172CF893B1D8779F1AF70B738BD8E57A /* CCHMapClusterOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterOperation.m; path = CCHMapClusterController/CCHMapClusterOperation.m; sourceTree = "<group>"; };
+		19479D916A027F8DE76F063CDAD6B416 /* CCHMapClusterControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerDelegate.h; path = CCHMapClusterController/CCHMapClusterControllerDelegate.h; sourceTree = "<group>"; };
+		1AB3BD7CB4278E33B7FC9B1CF002E716 /* CCHMapClusterController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterController.h; path = CCHMapClusterController/CCHMapClusterController.h; sourceTree = "<group>"; };
+		2A5AAEFB915F191E29ACAFB77D9D7C82 /* JPSThumbnailAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSThumbnailAnnotationView.h; path = JPSThumbnailAnnotation/JPSThumbnailAnnotationView.h; sourceTree = "<group>"; };
+		2AFCDCE29FAC79CFF6CD8048370BBC7C /* CCHMapAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapAnimator.h; path = CCHMapClusterController/CCHMapAnimator.h; sourceTree = "<group>"; };
+		2D2D429B62768531ECB6186D816BA192 /* Pods_VRN_Guide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRN_Guide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		319B215ABB1922580726D378F08CB1B1 /* Pods-VRN_GuideTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRN_GuideTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		326B106EFA898C70307CA0B9F90985AC /* CCHCenterOfMassMapClusterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHCenterOfMassMapClusterer.h; path = CCHMapClusterController/CCHCenterOfMassMapClusterer.h; sourceTree = "<group>"; };
 		336C7B6B50BD8894C3257F18C78DA161 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		340C70C25ADC2A47400C33B23515AF3B /* CCHMapClusterControllerDebugPolygon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterControllerDebugPolygon.m; path = CCHMapClusterController/CCHMapClusterControllerDebugPolygon.m; sourceTree = "<group>"; };
 		39138B097DC35A8A0FCD56D9470C0DFE /* Pods-VRN_GuideUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRN_GuideUITests-frameworks.sh"; sourceTree = "<group>"; };
-		3931A46B98A6211C51131D11E0CA3DC2 /* CCHFadeInOutMapAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHFadeInOutMapAnimator.m; path = CCHMapClusterController/CCHFadeInOutMapAnimator.m; sourceTree = "<group>"; };
-		3C561179A9B9AE968C9E4860179E85E9 /* CCHMapClusterAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterAnnotation.m; path = CCHMapClusterController/CCHMapClusterAnnotation.m; sourceTree = "<group>"; };
-		3DEB2AACBB1B28196E5A3A20804828FD /* CCHMapTreeUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapTreeUtils.h; path = CCHMapClusterController/CCHMapTreeUtils.h; sourceTree = "<group>"; };
-		40870FA3DF5DD6AD4BF8D21A9D6E9804 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		40886F346F9C4D1E0F5DD6A4DEA1ECF0 /* CCHMapViewDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapViewDelegateProxy.m; path = CCHMapClusterController/CCHMapViewDelegateProxy.m; sourceTree = "<group>"; };
-		4157332D24DAC6952C05E00D6BDB66AD /* CCHMapClusterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterer.h; path = CCHMapClusterController/CCHMapClusterer.h; sourceTree = "<group>"; };
-		4203A7091C1A38CF9002470C15AB0E29 /* CCHMapTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapTree.m; path = CCHMapClusterController/CCHMapTree.m; sourceTree = "<group>"; };
+		3B573E2276D239FC70465B4D4A54158A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D6773366C6A48391F6E53714227614 /* CCHMapClusterController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterController.m; path = CCHMapClusterController/CCHMapClusterController.m; sourceTree = "<group>"; };
+		44F115984CE8169CC2472D2E95CFA0A9 /* CCHMapClusterControllerDebugPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerDebugPolygon.h; path = CCHMapClusterController/CCHMapClusterControllerDebugPolygon.h; sourceTree = "<group>"; };
 		472E952F38A7D214B6681C04DE982FF8 /* Pods-VRN_GuideUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRN_GuideUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		48AC4F80942B36923623B913F310EB7D /* CCHMapClusterControllerUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerUtils.h; path = CCHMapClusterController/CCHMapClusterControllerUtils.h; sourceTree = "<group>"; };
-		49A3CC6B7F5A5252239CDA16E50EE3DF /* CCHMapViewDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapViewDelegateProxy.h; path = CCHMapClusterController/CCHMapViewDelegateProxy.h; sourceTree = "<group>"; };
-		4A85077C315119756673B14682FADB3A /* Pods_VRN_Guide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRN_Guide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5103C3CA6372843277BE01B3B19B0977 /* Pods-VRN_GuideUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRN_GuideUITests-dummy.m"; sourceTree = "<group>"; };
+		56D20C606B2DD21B64170E0525AAA742 /* CCHMapViewDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapViewDelegateProxy.m; path = CCHMapClusterController/CCHMapViewDelegateProxy.m; sourceTree = "<group>"; };
+		570B4719859DFCE721093DEA2FB29392 /* JPSThumbnailAnnotation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JPSThumbnailAnnotation.modulemap; sourceTree = "<group>"; };
 		59180BFB4198F9810CF7FD225DE027EB /* Pods-VRN_GuideTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRN_GuideTests-resources.sh"; sourceTree = "<group>"; };
-		5FC7225FCC1679A137533B16DD7CCB87 /* CCHMapClusterAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterAnnotation.h; path = CCHMapClusterController/CCHMapClusterAnnotation.h; sourceTree = "<group>"; };
+		5983BAABC78E335F5AF0ED3351152AE6 /* Pods_VRN_GuideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRN_GuideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BE84D401FA8AFCD33D6DBFEE642F11 /* CCHNearCenterMapClusterer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHNearCenterMapClusterer.m; path = CCHMapClusterController/CCHNearCenterMapClusterer.m; sourceTree = "<group>"; };
 		63F6A3EC3E116EF581E49F792D7D887A /* Pods-VRN_Guide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRN_Guide-umbrella.h"; sourceTree = "<group>"; };
-		64528EB762123A4FCEB80D1498C1FFBC /* CCHMapClusterOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterOperation.h; path = CCHMapClusterController/CCHMapClusterOperation.h; sourceTree = "<group>"; };
+		65DE71E979765DEC43CE5B50F7F5F38A /* JPSThumbnailAnnotation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSThumbnailAnnotation-prefix.pch"; sourceTree = "<group>"; };
 		67FB0A915B538B0BFF7D1CB031C06420 /* Pods-VRN_GuideTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRN_GuideTests-umbrella.h"; sourceTree = "<group>"; };
 		68C9362BD047BDFDB879BBDD288E2BC2 /* Pods-VRN_Guide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRN_Guide-dummy.m"; sourceTree = "<group>"; };
-		6EF3612AD0B8E791422B4BD0074DB6A5 /* CCHMapTreeUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapTreeUtils.m; path = CCHMapClusterController/CCHMapTreeUtils.m; sourceTree = "<group>"; };
-		6F8ECB5AF20CB904DDB53EBE6724F4D4 /* CCHMapClusterControllerDebugPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerDebugPolygon.h; path = CCHMapClusterController/CCHMapClusterControllerDebugPolygon.h; sourceTree = "<group>"; };
-		754FA524099DCA0FA64BE8F2B03BB4C6 /* CCHMapClusterController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCHMapClusterController.xcconfig; sourceTree = "<group>"; };
-		7AACE300F970EA99C0089A41DDD2B3DD /* CCHCenterOfMassMapClusterer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHCenterOfMassMapClusterer.m; path = CCHMapClusterController/CCHCenterOfMassMapClusterer.m; sourceTree = "<group>"; };
-		7B962F9205500CAB741BCFD77685145B /* CCHMapAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapAnimator.h; path = CCHMapClusterController/CCHMapAnimator.h; sourceTree = "<group>"; };
+		6C4D65FE56551584A466BC2845AF81C6 /* JPSThumbnailAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSThumbnailAnnotation.m; path = JPSThumbnailAnnotation/JPSThumbnailAnnotation.m; sourceTree = "<group>"; };
+		700C5FDAFAAFEAEBCC427E8CE6B77CD0 /* CCHMapViewDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapViewDelegateProxy.h; path = CCHMapClusterController/CCHMapViewDelegateProxy.h; sourceTree = "<group>"; };
+		754780EA9D33DE19E4E9A3C43CD017D9 /* Pods_VRN_GuideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRN_GuideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76885EC762C211E53A869BAF90BC4A7C /* CCHMapTreeUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapTreeUtils.m; path = CCHMapClusterController/CCHMapTreeUtils.m; sourceTree = "<group>"; };
+		76F5566EF37A3E8A313F23B5D11A9A6F /* CCHFadeInOutMapAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHFadeInOutMapAnimator.m; path = CCHMapClusterController/CCHFadeInOutMapAnimator.m; sourceTree = "<group>"; };
+		7840ED52D1F7D4CBFBFA4DB1736F229B /* CCHFadeInOutMapAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHFadeInOutMapAnimator.h; path = CCHMapClusterController/CCHFadeInOutMapAnimator.h; sourceTree = "<group>"; };
 		7CA6E2293E4EA305D4E6F86C35E4E30B /* Pods-VRN_GuideUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRN_GuideUITests-umbrella.h"; sourceTree = "<group>"; };
+		7D319D01038FF2235A15BD8708137ED6 /* CCHNearCenterMapClusterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHNearCenterMapClusterer.h; path = CCHMapClusterController/CCHNearCenterMapClusterer.h; sourceTree = "<group>"; };
 		7DB930C930196B64ACCB116E642B013F /* Pods-VRN_GuideUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRN_GuideUITests-resources.sh"; sourceTree = "<group>"; };
-		8CEB3C7DFB8CB730E4D7CDF230D27C09 /* CCHMapClusterControllerUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterControllerUtils.m; path = CCHMapClusterController/CCHMapClusterControllerUtils.m; sourceTree = "<group>"; };
+		7E6604E8AF0D1AFE564C2B6AEAA9ED47 /* CCHMapClusterController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCHMapClusterController.xcconfig; sourceTree = "<group>"; };
+		83C49773D3171BD8CD0E043422F6FB11 /* CCHMapClusterController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CCHMapClusterController.modulemap; sourceTree = "<group>"; };
+		8977964C879FB8BE01DF2A9CF6059F9C /* CCHMapClusterOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterOperation.h; path = CCHMapClusterController/CCHMapClusterOperation.h; sourceTree = "<group>"; };
+		8BFAC14ADCC6A459FA21401A45DF1CDF /* CCHMapClusterController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCHMapClusterController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6CAB7DA611EACFAF7AA69E1EA0FC71 /* CCHCenterOfMassMapClusterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHCenterOfMassMapClusterer.h; path = CCHMapClusterController/CCHCenterOfMassMapClusterer.h; sourceTree = "<group>"; };
 		9064373996B7FA698763DBF6E3D220E8 /* Pods-VRN_GuideTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRN_GuideTests-dummy.m"; sourceTree = "<group>"; };
 		90C61153A1F5FCE649EFED12AEBBE4FA /* Pods-VRN_GuideUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRN_GuideUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94264CE21030E5203083A08297E6F29F /* JPSThumbnailAnnotation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSThumbnailAnnotation-umbrella.h"; sourceTree = "<group>"; };
 		9548A6D5E6F64D9E9B1300113746D2E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98A2A075B97DABDACA3A27D95FFF5E28 /* CCHMapClusterController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterController.h; path = CCHMapClusterController/CCHMapClusterController.h; sourceTree = "<group>"; };
+		95DFE2011974B36AD3C266CA8EE688BC /* CCHCenterOfMassMapClusterer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHCenterOfMassMapClusterer.m; path = CCHMapClusterController/CCHCenterOfMassMapClusterer.m; sourceTree = "<group>"; };
 		98D44CAD5E98918024D87CD415F92F62 /* Pods-VRN_GuideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRN_GuideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A3C3240DCE34D87C61003FCC7962684 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B0B9E614DC892E5D4F8F9718C8BE264 /* Pods-VRN_Guide-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRN_Guide-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B6B8E04B107614A063588D90758267B /* Pods-VRN_GuideTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRN_GuideTests.modulemap"; sourceTree = "<group>"; };
+		A36EDA7238236C806F533508E5B384E3 /* CCHMapTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapTree.m; path = CCHMapClusterController/CCHMapTree.m; sourceTree = "<group>"; };
 		A76732AE6B0B7AE8CA0732B62BDCE82D /* Pods-VRN_Guide-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRN_Guide-frameworks.sh"; sourceTree = "<group>"; };
-		A8ABEC204084197B3E46B78FEF75C9BD /* CCHNearCenterMapClusterer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHNearCenterMapClusterer.h; path = CCHMapClusterController/CCHNearCenterMapClusterer.h; sourceTree = "<group>"; };
+		A89FD4ABF0CDF416BBC09325A35715E1 /* JPSThumbnailAnnotation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPSThumbnailAnnotation.xcconfig; sourceTree = "<group>"; };
 		ACE257A6C507DB99F7CE546055CB58D6 /* Pods-VRN_GuideTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRN_GuideTests-frameworks.sh"; sourceTree = "<group>"; };
 		ADDE7321748758A1EA1EA63C57F78E88 /* Pods-VRN_Guide-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRN_Guide-acknowledgements.plist"; sourceTree = "<group>"; };
-		B04E54F6CDEB2E0B59F9552D744CAED1 /* CCHMapClusterOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterOperation.m; path = CCHMapClusterController/CCHMapClusterOperation.m; sourceTree = "<group>"; };
 		B08F9D1C129A55AB3921A9DBD5FFA436 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B10232FA43913DBA054CFA0773470DA0 /* Pods-VRN_GuideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRN_GuideUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B1494287433DE58DAEE7F19EB6AD38F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		B24486CB94FF0EA055BBCCADD2965921 /* Pods-VRN_Guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRN_Guide.release.xcconfig"; sourceTree = "<group>"; };
+		B4585A3B71CE403B107F45D0EA01CB31 /* JPSThumbnailAnnotation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPSThumbnailAnnotation-dummy.m"; sourceTree = "<group>"; };
 		B5E7BA2C7AD9E50A03BD93380C9C3A08 /* Pods-VRN_GuideTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRN_GuideTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B8D50A5C02E3FB9A3D14FAD94C8DFB2D /* CCHNearCenterMapClusterer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHNearCenterMapClusterer.m; path = CCHMapClusterController/CCHNearCenterMapClusterer.m; sourceTree = "<group>"; };
+		B79852CAC408326DE3F2BD5007A244EF /* JPSThumbnailAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSThumbnailAnnotation.h; path = JPSThumbnailAnnotation/JPSThumbnailAnnotation.h; sourceTree = "<group>"; };
 		B92BC4188278857682C44E8C283E4CEB /* Pods-VRN_Guide-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRN_Guide-resources.sh"; sourceTree = "<group>"; };
-		BFF8779B39196C0E01B8F324C39C4DDC /* Pods_VRN_GuideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRN_GuideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC95854CE0E65D18DEB5D558FEC3BD16 /* JPSThumbnailAnnotationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSThumbnailAnnotationView.m; path = JPSThumbnailAnnotation/JPSThumbnailAnnotationView.m; sourceTree = "<group>"; };
+		BE63F3A1B070F9EB5F585A0FDA056A61 /* JPSThumbnail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSThumbnail.h; path = JPSThumbnailAnnotation/JPSThumbnail.h; sourceTree = "<group>"; };
+		BF8BE990FE5F4EF02AEBDF79D653E0AE /* CCHMapClusterController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCHMapClusterController-dummy.m"; sourceTree = "<group>"; };
+		C02B9EE4C9FC9FBE78A6063DD4B59D09 /* JPSThumnail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSThumnail.m; path = JPSThumbnailAnnotation/JPSThumnail.m; sourceTree = "<group>"; };
 		C0E14DBCEA87E0382111789D39A9F1F1 /* Pods-VRN_GuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRN_GuideTests.release.xcconfig"; sourceTree = "<group>"; };
-		CC7EAB6476D0A83036CEF6459393553E /* CCHMapClusterController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCHMapClusterController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAC26BFFF6505DF2633A08A0BC74710B /* CCHMapClusterController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCHMapClusterController-dummy.m"; sourceTree = "<group>"; };
-		DC55DE0DE1903AB0BA075733ED1B1B92 /* CCHMapClusterControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerDelegate.h; path = CCHMapClusterController/CCHMapClusterControllerDelegate.h; sourceTree = "<group>"; };
+		C105349F2F127177F4EDB4A3E617764A /* CCHMapClusterControllerUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapClusterControllerUtils.h; path = CCHMapClusterController/CCHMapClusterControllerUtils.h; sourceTree = "<group>"; };
+		D12F376897B1691A338B64CBF6B11853 /* JPSThumbnailAnnotation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPSThumbnailAnnotation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FDEE0B5E907B8224C59986BA17CEF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D37C9BFEEEAE2D4F2BBF403561E44908 /* CCHMapClusterController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCHMapClusterController-umbrella.h"; sourceTree = "<group>"; };
+		DDE6FA2623E6D72DE7680420A3E0AF32 /* CCHMapTreeUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCHMapTreeUtils.h; path = CCHMapClusterController/CCHMapTreeUtils.h; sourceTree = "<group>"; };
+		E1096B8EF238737084647B3143EFC70D /* CCHMapClusterControllerUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterControllerUtils.m; path = CCHMapClusterController/CCHMapClusterControllerUtils.m; sourceTree = "<group>"; };
+		E58C489EE599B87E978421B5126B81C7 /* CCHMapClusterAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCHMapClusterAnnotation.m; path = CCHMapClusterController/CCHMapClusterAnnotation.m; sourceTree = "<group>"; };
+		E7A84C51660ACA8BFB22EA95D6559801 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		E7C637A5E7ABF435132F67A09C14484E /* Pods-VRN_GuideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRN_GuideTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9E5AE050B331E513B11C4FC3251051F /* Pods-VRN_Guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRN_Guide.debug.xcconfig"; sourceTree = "<group>"; };
-		EAC0D2B93C9E236056EA4FDD0A717D61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0D468936DD50C8BB7180648B887FDCF /* Pods-VRN_GuideUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VRN_GuideUITests.modulemap"; sourceTree = "<group>"; };
+		F3377266ED7EB680F5B874876448263A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F7433CFA45B4035D8B54511EBBD29D97 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		02D4102AC9C57E5CEECAB4BB96D65105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B1ED40C0F2BD1E68514321F3A02666 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783083294DDF345258BAB8B514767EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D25E64EA35E4E2854E0B9C545B2CA54 /* CoreLocation.framework in Frameworks */,
+				F946C77E867064233CED22E333091C65 /* Foundation.framework in Frameworks */,
+				FDB78D036A1F33304B845C1267591646 /* MapKit.framework in Frameworks */,
+				5089EB7FE13E85D1659C8BCBAFD685BD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8F94B149B8120C734322E2EC37A91832 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,14 +209,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5541461AB758A12EF12A7BB8CB0BB4D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5DBF36CF047C1F44DAFDDFB3975E1248 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -186,12 +230,26 @@
 			path = "Target Support Files/Pods-VRN_Guide";
 			sourceTree = "<group>";
 		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				922CBED1C949B92A67803AB63048DF58 /* iOS */,
+				8933A5DAEA39C69FB1673EBC2A04D664 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17E7EA325CAEC64FF3CA578D377F0B09 /* JPSThumbnailAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				BE63F3A1B070F9EB5F585A0FDA056A61 /* JPSThumbnail.h */,
+				B79852CAC408326DE3F2BD5007A244EF /* JPSThumbnailAnnotation.h */,
+				6C4D65FE56551584A466BC2845AF81C6 /* JPSThumbnailAnnotation.m */,
+				2A5AAEFB915F191E29ACAFB77D9D7C82 /* JPSThumbnailAnnotationView.h */,
+				BC95854CE0E65D18DEB5D558FEC3BD16 /* JPSThumbnailAnnotationView.m */,
+				C02B9EE4C9FC9FBE78A6063DD4B59D09 /* JPSThumnail.m */,
+				A488727AA5486F77A8E2AEA8D4D00EDE /* Support Files */,
+			);
+			path = JPSThumbnailAnnotation;
 			sourceTree = "<group>";
 		};
 		2994F7A3D8C4AAD9F433A8BAAA85EE65 /* Targets Support Files */ = {
@@ -222,59 +280,57 @@
 			path = "Target Support Files/Pods-VRN_GuideTests";
 			sourceTree = "<group>";
 		};
-		2BD63910CA5BEC20379566592D3CEFE4 /* CCHMapClusterController */ = {
+		3FD4C59BC2AE50F433355691BC0E1F1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				326B106EFA898C70307CA0B9F90985AC /* CCHCenterOfMassMapClusterer.h */,
-				7AACE300F970EA99C0089A41DDD2B3DD /* CCHCenterOfMassMapClusterer.m */,
-				05D175CFDF61682EC9DAF886FD180890 /* CCHFadeInOutMapAnimator.h */,
-				3931A46B98A6211C51131D11E0CA3DC2 /* CCHFadeInOutMapAnimator.m */,
-				7B962F9205500CAB741BCFD77685145B /* CCHMapAnimator.h */,
-				5FC7225FCC1679A137533B16DD7CCB87 /* CCHMapClusterAnnotation.h */,
-				3C561179A9B9AE968C9E4860179E85E9 /* CCHMapClusterAnnotation.m */,
-				98A2A075B97DABDACA3A27D95FFF5E28 /* CCHMapClusterController.h */,
-				0CC054EC5476435D5A1224F8AF80CE9E /* CCHMapClusterController.m */,
-				6F8ECB5AF20CB904DDB53EBE6724F4D4 /* CCHMapClusterControllerDebugPolygon.h */,
-				340C70C25ADC2A47400C33B23515AF3B /* CCHMapClusterControllerDebugPolygon.m */,
-				DC55DE0DE1903AB0BA075733ED1B1B92 /* CCHMapClusterControllerDelegate.h */,
-				48AC4F80942B36923623B913F310EB7D /* CCHMapClusterControllerUtils.h */,
-				8CEB3C7DFB8CB730E4D7CDF230D27C09 /* CCHMapClusterControllerUtils.m */,
-				4157332D24DAC6952C05E00D6BDB66AD /* CCHMapClusterer.h */,
-				64528EB762123A4FCEB80D1498C1FFBC /* CCHMapClusterOperation.h */,
-				B04E54F6CDEB2E0B59F9552D744CAED1 /* CCHMapClusterOperation.m */,
-				0C584BECB55C0EF71100B6E6EF94F456 /* CCHMapTree.h */,
-				4203A7091C1A38CF9002470C15AB0E29 /* CCHMapTree.m */,
-				3DEB2AACBB1B28196E5A3A20804828FD /* CCHMapTreeUtils.h */,
-				6EF3612AD0B8E791422B4BD0074DB6A5 /* CCHMapTreeUtils.m */,
-				49A3CC6B7F5A5252239CDA16E50EE3DF /* CCHMapViewDelegateProxy.h */,
-				40886F346F9C4D1E0F5DD6A4DEA1ECF0 /* CCHMapViewDelegateProxy.m */,
-				A8ABEC204084197B3E46B78FEF75C9BD /* CCHNearCenterMapClusterer.h */,
-				B8D50A5C02E3FB9A3D14FAD94C8DFB2D /* CCHNearCenterMapClusterer.m */,
-				6ACF35A80A99E0F4108788C75540993C /* Support Files */,
+				502077D890E07511BD43A8B4EB7B2E8B /* CCHMapClusterController */,
+				17E7EA325CAEC64FF3CA578D377F0B09 /* JPSThumbnailAnnotation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		502077D890E07511BD43A8B4EB7B2E8B /* CCHMapClusterController */ = {
+			isa = PBXGroup;
+			children = (
+				8E6CAB7DA611EACFAF7AA69E1EA0FC71 /* CCHCenterOfMassMapClusterer.h */,
+				95DFE2011974B36AD3C266CA8EE688BC /* CCHCenterOfMassMapClusterer.m */,
+				7840ED52D1F7D4CBFBFA4DB1736F229B /* CCHFadeInOutMapAnimator.h */,
+				76F5566EF37A3E8A313F23B5D11A9A6F /* CCHFadeInOutMapAnimator.m */,
+				2AFCDCE29FAC79CFF6CD8048370BBC7C /* CCHMapAnimator.h */,
+				0BBE4B4485EED6993B144942F3BFFEEF /* CCHMapClusterAnnotation.h */,
+				E58C489EE599B87E978421B5126B81C7 /* CCHMapClusterAnnotation.m */,
+				1AB3BD7CB4278E33B7FC9B1CF002E716 /* CCHMapClusterController.h */,
+				41D6773366C6A48391F6E53714227614 /* CCHMapClusterController.m */,
+				44F115984CE8169CC2472D2E95CFA0A9 /* CCHMapClusterControllerDebugPolygon.h */,
+				148409BDC8FE708AF3C34FFB2E304E97 /* CCHMapClusterControllerDebugPolygon.m */,
+				19479D916A027F8DE76F063CDAD6B416 /* CCHMapClusterControllerDelegate.h */,
+				C105349F2F127177F4EDB4A3E617764A /* CCHMapClusterControllerUtils.h */,
+				E1096B8EF238737084647B3143EFC70D /* CCHMapClusterControllerUtils.m */,
+				1483B263F74D498DD648DAF80A0C982E /* CCHMapClusterer.h */,
+				8977964C879FB8BE01DF2A9CF6059F9C /* CCHMapClusterOperation.h */,
+				172CF893B1D8779F1AF70B738BD8E57A /* CCHMapClusterOperation.m */,
+				030FA33696891798AFA6E99617F01E25 /* CCHMapTree.h */,
+				A36EDA7238236C806F533508E5B384E3 /* CCHMapTree.m */,
+				DDE6FA2623E6D72DE7680420A3E0AF32 /* CCHMapTreeUtils.h */,
+				76885EC762C211E53A869BAF90BC4A7C /* CCHMapTreeUtils.m */,
+				700C5FDAFAAFEAEBCC427E8CE6B77CD0 /* CCHMapViewDelegateProxy.h */,
+				56D20C606B2DD21B64170E0525AAA742 /* CCHMapViewDelegateProxy.m */,
+				7D319D01038FF2235A15BD8708137ED6 /* CCHNearCenterMapClusterer.h */,
+				60BE84D401FA8AFCD33D6DBFEE642F11 /* CCHNearCenterMapClusterer.m */,
+				7A2F635C07896C937DE1C7056E2C76AA /* Support Files */,
 			);
 			path = CCHMapClusterController;
 			sourceTree = "<group>";
 		};
-		4EE17415CD4A0A3B7F9FB2A1AC11E677 /* Products */ = {
+		7A2F635C07896C937DE1C7056E2C76AA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CC7EAB6476D0A83036CEF6459393553E /* CCHMapClusterController.framework */,
-				4A85077C315119756673B14682FADB3A /* Pods_VRN_Guide.framework */,
-				211BDAF297A185687B974CF158F76156 /* Pods_VRN_GuideTests.framework */,
-				BFF8779B39196C0E01B8F324C39C4DDC /* Pods_VRN_GuideUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6ACF35A80A99E0F4108788C75540993C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				260AAADD8B461882CFAF1B21E44E7C96 /* CCHMapClusterController.modulemap */,
-				754FA524099DCA0FA64BE8F2B03BB4C6 /* CCHMapClusterController.xcconfig */,
-				DAC26BFFF6505DF2633A08A0BC74710B /* CCHMapClusterController-dummy.m */,
-				1C2497AC92BF88433782AD645B297672 /* CCHMapClusterController-prefix.pch */,
-				204B1EF8DF758A708866989E173C54BA /* CCHMapClusterController-umbrella.h */,
-				EAC0D2B93C9E236056EA4FDD0A717D61 /* Info.plist */,
+				83C49773D3171BD8CD0E043422F6FB11 /* CCHMapClusterController.modulemap */,
+				7E6604E8AF0D1AFE564C2B6AEAA9ED47 /* CCHMapClusterController.xcconfig */,
+				BF8BE990FE5F4EF02AEBDF79D653E0AE /* CCHMapClusterController-dummy.m */,
+				070F93B6FB6A39D77018764367717793 /* CCHMapClusterController-prefix.pch */,
+				D37C9BFEEEAE2D4F2BBF403561E44908 /* CCHMapClusterController-umbrella.h */,
+				3B573E2276D239FC70465B4D4A54158A /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CCHMapClusterController";
@@ -302,29 +358,48 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				DB68C81BE75B08EA5A758AE0747B98C7 /* Pods */,
-				4EE17415CD4A0A3B7F9FB2A1AC11E677 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				3FD4C59BC2AE50F433355691BC0E1F1C /* Pods */,
+				F7D3B2FAC0D50E5A50577B8E5131F81B /* Products */,
 				2994F7A3D8C4AAD9F433A8BAAA85EE65 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		922CBED1C949B92A67803AB63048DF58 /* iOS */ = {
+		8933A5DAEA39C69FB1673EBC2A04D664 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B1494287433DE58DAEE7F19EB6AD38F6 /* CoreLocation.framework */,
-				2358F16486F411119537C5E116932219 /* Foundation.framework */,
-				40870FA3DF5DD6AD4BF8D21A9D6E9804 /* MapKit.framework */,
+				E7A84C51660ACA8BFB22EA95D6559801 /* CoreLocation.framework */,
+				F3377266ED7EB680F5B874876448263A /* Foundation.framework */,
+				F7433CFA45B4035D8B54511EBBD29D97 /* MapKit.framework */,
+				D2FDEE0B5E907B8224C59986BA17CEF4 /* QuartzCore.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DB68C81BE75B08EA5A758AE0747B98C7 /* Pods */ = {
+		A488727AA5486F77A8E2AEA8D4D00EDE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2BD63910CA5BEC20379566592D3CEFE4 /* CCHMapClusterController */,
+				9A3C3240DCE34D87C61003FCC7962684 /* Info.plist */,
+				570B4719859DFCE721093DEA2FB29392 /* JPSThumbnailAnnotation.modulemap */,
+				A89FD4ABF0CDF416BBC09325A35715E1 /* JPSThumbnailAnnotation.xcconfig */,
+				B4585A3B71CE403B107F45D0EA01CB31 /* JPSThumbnailAnnotation-dummy.m */,
+				65DE71E979765DEC43CE5B50F7F5F38A /* JPSThumbnailAnnotation-prefix.pch */,
+				94264CE21030E5203083A08297E6F29F /* JPSThumbnailAnnotation-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/JPSThumbnailAnnotation";
+			sourceTree = "<group>";
+		};
+		F7D3B2FAC0D50E5A50577B8E5131F81B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC14ADCC6A459FA21401A45DF1CDF /* CCHMapClusterController.framework */,
+				D12F376897B1691A338B64CBF6B11853 /* JPSThumbnailAnnotation.framework */,
+				2D2D429B62768531ECB6186D816BA192 /* Pods_VRN_Guide.framework */,
+				754780EA9D33DE19E4E9A3C43CD017D9 /* Pods_VRN_GuideTests.framework */,
+				5983BAABC78E335F5AF0ED3351152AE6 /* Pods_VRN_GuideUITests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,11 +413,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BA221FB3B8122C5EA1AC1FFDC08430E /* Headers */ = {
+		3A00AF6C4BAE1D32A498B789B7FAF079 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F6325AEA5B5F34CE25DE0D22D2C22F /* Pods-VRN_Guide-umbrella.h in Headers */,
+				57FA1A84DFA26087AA7440DC037A38B9 /* Pods-VRN_Guide-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,9 +451,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC618982174F6CAB61181B6ED681569C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9D3E37A698F0873E405759CFFE07BDF /* JPSThumbnail.h in Headers */,
+				996EB21E0B00E5D3E98766EADC6D5E87 /* JPSThumbnailAnnotation-umbrella.h in Headers */,
+				F982F72FCCD12BE49AD4688BBC1AEBD2 /* JPSThumbnailAnnotation.h in Headers */,
+				63EC8AD3BE4682E73CABCAAF7ECA80F5 /* JPSThumbnailAnnotationView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1E90EC2A11CCE6D2117DE249C74A9160 /* JPSThumbnailAnnotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BC5A2FA430DD82CE5B7FA0400525E6 /* Build configuration list for PBXNativeTarget "JPSThumbnailAnnotation" */;
+			buildPhases = (
+				286079204D2D5882173C92D9D11F0596 /* Sources */,
+				783083294DDF345258BAB8B514767EC4 /* Frameworks */,
+				FC618982174F6CAB61181B6ED681569C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPSThumbnailAnnotation;
+			productName = JPSThumbnailAnnotation;
+			productReference = D12F376897B1691A338B64CBF6B11853 /* JPSThumbnailAnnotation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		20863207A733D0EB9ECFA70FC52155A6 /* Pods-VRN_GuideUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFF4AD2F7A00D70886B64B1E83DC14FA /* Build configuration list for PBXNativeTarget "Pods-VRN_GuideUITests" */;
@@ -393,25 +496,26 @@
 			);
 			name = "Pods-VRN_GuideUITests";
 			productName = "Pods-VRN_GuideUITests";
-			productReference = BFF8779B39196C0E01B8F324C39C4DDC /* Pods_VRN_GuideUITests.framework */;
+			productReference = 5983BAABC78E335F5AF0ED3351152AE6 /* Pods_VRN_GuideUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		51342C8C4B6B1204FA41C97C2B814046 /* Pods-VRN_Guide */ = {
+		27D7F379ABC5630572F937D48DCC4C68 /* Pods-VRN_Guide */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40702CA4E7ED005FC21DBE9987EEBE91 /* Build configuration list for PBXNativeTarget "Pods-VRN_Guide" */;
+			buildConfigurationList = C36FEA3A5FDC885AC708EE416BE22451 /* Build configuration list for PBXNativeTarget "Pods-VRN_Guide" */;
 			buildPhases = (
-				05A15DC389F9030163F7CF82B5ED5335 /* Sources */,
-				C5541461AB758A12EF12A7BB8CB0BB4D /* Frameworks */,
-				5BA221FB3B8122C5EA1AC1FFDC08430E /* Headers */,
+				72AF91A19E2F0AF18A30AFA9DF048B99 /* Sources */,
+				02D4102AC9C57E5CEECAB4BB96D65105 /* Frameworks */,
+				3A00AF6C4BAE1D32A498B789B7FAF079 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BCC76FB5A88ACD317FD63D1BA959E16E /* PBXTargetDependency */,
+				58C42789F068201F12374F8D87DCA5DA /* PBXTargetDependency */,
+				98AB21E9A2D1EC948F02AA4BFB39AC0B /* PBXTargetDependency */,
 			);
 			name = "Pods-VRN_Guide";
 			productName = "Pods-VRN_Guide";
-			productReference = 4A85077C315119756673B14682FADB3A /* Pods_VRN_Guide.framework */;
+			productReference = 2D2D429B62768531ECB6186D816BA192 /* Pods_VRN_Guide.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		89AD13529F3D133F1B9548298D3EE89E /* CCHMapClusterController */ = {
@@ -428,7 +532,7 @@
 			);
 			name = CCHMapClusterController;
 			productName = CCHMapClusterController;
-			productReference = CC7EAB6476D0A83036CEF6459393553E /* CCHMapClusterController.framework */;
+			productReference = 8BFAC14ADCC6A459FA21401A45DF1CDF /* CCHMapClusterController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D0C9FA5A5B5C1709F9CE9E9F982D275E /* Pods-VRN_GuideTests */ = {
@@ -445,7 +549,7 @@
 			);
 			name = "Pods-VRN_GuideTests";
 			productName = "Pods-VRN_GuideTests";
-			productReference = 211BDAF297A185687B974CF158F76156 /* Pods_VRN_GuideTests.framework */;
+			productReference = 754780EA9D33DE19E4E9A3C43CD017D9 /* Pods_VRN_GuideTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -465,12 +569,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4EE17415CD4A0A3B7F9FB2A1AC11E677 /* Products */;
+			productRefGroup = F7D3B2FAC0D50E5A50577B8E5131F81B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				89AD13529F3D133F1B9548298D3EE89E /* CCHMapClusterController */,
-				51342C8C4B6B1204FA41C97C2B814046 /* Pods-VRN_Guide */,
+				1E90EC2A11CCE6D2117DE249C74A9160 /* JPSThumbnailAnnotation */,
+				27D7F379ABC5630572F937D48DCC4C68 /* Pods-VRN_Guide */,
 				D0C9FA5A5B5C1709F9CE9E9F982D275E /* Pods-VRN_GuideTests */,
 				20863207A733D0EB9ECFA70FC52155A6 /* Pods-VRN_GuideUITests */,
 			);
@@ -478,19 +583,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05A15DC389F9030163F7CF82B5ED5335 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B76676A033B714D1BC04EB7C42965975 /* Pods-VRN_Guide-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		141313E415DA7AD24B289ECFFBA93081 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24C0B9345D48543AF86938368269EC26 /* Pods-VRN_GuideUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286079204D2D5882173C92D9D11F0596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6DCC9753637ED1063050B856805CF4 /* JPSThumbnailAnnotation-dummy.m in Sources */,
+				D738C7660DE2D94785F66D34B762B10D /* JPSThumbnailAnnotation.m in Sources */,
+				429FF99EAEA04D827001EF80E450298F /* JPSThumbnailAnnotationView.m in Sources */,
+				56FE2FD35984E4FE41C755E734BA0B73 /* JPSThumnail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +621,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72AF91A19E2F0AF18A30AFA9DF048B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7FF0983761A832B91D4618388A222B /* Pods-VRN_Guide-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87CECFB4F9D1B437CAA77B31DACB6DE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -524,11 +640,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BCC76FB5A88ACD317FD63D1BA959E16E /* PBXTargetDependency */ = {
+		58C42789F068201F12374F8D87DCA5DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CCHMapClusterController;
 			target = 89AD13529F3D133F1B9548298D3EE89E /* CCHMapClusterController */;
-			targetProxy = 034F89EF363F29BE139A808BC714E3C7 /* PBXContainerItemProxy */;
+			targetProxy = 9D55AB874B53C30E47FFD2C0BB0D379D /* PBXContainerItemProxy */;
+		};
+		98AB21E9A2D1EC948F02AA4BFB39AC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPSThumbnailAnnotation;
+			target = 1E90EC2A11CCE6D2117DE249C74A9160 /* JPSThumbnailAnnotation */;
+			targetProxy = E18846BC8A4389CBA25877F8D69CE9BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -612,7 +734,74 @@
 			};
 			name = Release;
 		};
-		4C29ECE5DFF1C033FA10BA411B340ECC /* Release */ = {
+		540BC1ED1D90D341D7F8F27BE2DF141A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E5AE050B331E513B11C4FC3251051F /* Pods-VRN_Guide.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VRN_Guide/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRN_Guide/Pods-VRN_Guide.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VRN_Guide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FB5346954D02CD3B0C212A6EA99A5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E6604E8AF0D1AFE564C2B6AEAA9ED47 /* CCHMapClusterController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCHMapClusterController/CCHMapClusterController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCHMapClusterController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCHMapClusterController/CCHMapClusterController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CCHMapClusterController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FC4600997578C0C1CA0043D571F7BB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B24486CB94FF0EA055BBCCADD2965921 /* Pods-VRN_Guide.release.xcconfig */;
 			buildSettings = {
@@ -647,9 +836,9 @@
 			};
 			name = Release;
 		};
-		5FB5346954D02CD3B0C212A6EA99A5F9 /* Debug */ = {
+		648E18AC7BEC59A82CC9272C9A0984FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 754FA524099DCA0FA64BE8F2B03BB4C6 /* CCHMapClusterController.xcconfig */;
+			baseConfigurationReference = A89FD4ABF0CDF416BBC09325A35715E1 /* JPSThumbnailAnnotation.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -662,14 +851,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CCHMapClusterController/CCHMapClusterController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCHMapClusterController/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JPSThumbnailAnnotation/JPSThumbnailAnnotation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPSThumbnailAnnotation/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CCHMapClusterController/CCHMapClusterController.modulemap";
+				MODULEMAP_FILE = "Target Support Files/JPSThumbnailAnnotation/JPSThumbnailAnnotation.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CCHMapClusterController;
+				PRODUCT_NAME = JPSThumbnailAnnotation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -681,7 +870,7 @@
 		};
 		828E05D3F7ED838C887F7D416500B009 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 754FA524099DCA0FA64BE8F2B03BB4C6 /* CCHMapClusterController.xcconfig */;
+			baseConfigurationReference = 7E6604E8AF0D1AFE564C2B6AEAA9ED47 /* CCHMapClusterController.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -702,6 +891,38 @@
 				MODULEMAP_FILE = "Target Support Files/CCHMapClusterController/CCHMapClusterController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = CCHMapClusterController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86B983BBAE948E3A37B2622721CDC83A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89FD4ABF0CDF416BBC09325A35715E1 /* JPSThumbnailAnnotation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JPSThumbnailAnnotation/JPSThumbnailAnnotation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPSThumbnailAnnotation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JPSThumbnailAnnotation/JPSThumbnailAnnotation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JPSThumbnailAnnotation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -745,41 +966,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		D34296E893F4768F381BE1795E9852BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9E5AE050B331E513B11C4FC3251051F /* Pods-VRN_Guide.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-VRN_Guide/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VRN_Guide/Pods-VRN_Guide.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_VRN_Guide;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		DEF9FBC295B7DF8DC910443CBB814493 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -903,11 +1089,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40702CA4E7ED005FC21DBE9987EEBE91 /* Build configuration list for PBXNativeTarget "Pods-VRN_Guide" */ = {
+		33BC5A2FA430DD82CE5B7FA0400525E6 /* Build configuration list for PBXNativeTarget "JPSThumbnailAnnotation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D34296E893F4768F381BE1795E9852BD /* Debug */,
-				4C29ECE5DFF1C033FA10BA411B340ECC /* Release */,
+				648E18AC7BEC59A82CC9272C9A0984FF /* Debug */,
+				86B983BBAE948E3A37B2622721CDC83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -926,6 +1112,15 @@
 			buildConfigurations = (
 				DEF9FBC295B7DF8DC910443CBB814493 /* Debug */,
 				4BF66914977283B9FD8A6A35D480546B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C36FEA3A5FDC885AC708EE416BE22451 /* Build configuration list for PBXNativeTarget "Pods-VRN_Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540BC1ED1D90D341D7F8F27BE2DF141A /* Debug */,
+				5FC4600997578C0C1CA0043D571F7BB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -84,6 +84,7 @@
                                     <outlet property="ItemContext" destination="EbP-Ra-yyf" id="FkG-Kd-IDm"/>
                                     <outlet property="ItemName" destination="UF8-X4-65M" id="lQV-Qu-zpK"/>
                                     <outlet property="ItemPhoto" destination="0Ji-c1-pty" id="kXS-Ma-Qwq"/>
+                                    <segue destination="IhI-ia-hUY" kind="show" id="mpV-nG-8Sm"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -98,6 +99,41 @@
             </objects>
             <point key="canvasLocation" x="412" y="640.92953523238384"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Bgs-fZ-WXp">
+            <objects>
+                <viewController id="IhI-ia-hUY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uqd-tB-EOu"/>
+                        <viewControllerLayoutGuide type="bottom" id="bz9-b4-uAZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cLI-n7-902">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5Ic-SF-irr">
+                                <frame key="frameInset" minX="27" minY="533" width="319" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBq-JE-Cwa">
+                                <frame key="frameInset" minX="27" minY="220" width="319" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ag-7q-Hje">
+                                <frame key="frameInset" minX="16" minY="42" width="319" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mLQ-34-YwB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1532" y="673.31334332833592"/>
+        </scene>
         <!--MapView-->
         <scene sceneID="R0e-4s-7EK">
             <objects>
@@ -111,7 +147,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MbK-lu-H5m">
-                                <frame key="frameInset" minY="64" width="375" height="603"/>
+                                <frame key="frameInset" minY="56" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>

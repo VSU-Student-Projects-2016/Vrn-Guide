@@ -10,8 +10,9 @@
 import UIKit
 import MapKit
 import CCHMapClusterController
+import JPSThumbnailAnnotation
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController, CCHMapClusterControllerDelegate {
 
   
     @IBOutlet weak var MyMap: MKMapView!
@@ -21,7 +22,8 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
         //51.675611, 39.211179
         self.p = CCHMapClusterController.init(mapView: self.MyMap)
-
+        self.p.delegate = self
+        
         let startLocation = CLLocationCoordinate2D(latitude: 51.675611, longitude: 39.211179)
         let sl = CLLocationCoordinate2D (latitude:51.674773, longitude: 39.209151)
         let span = MKCoordinateSpanMake(0.3, 0.3)
@@ -38,12 +40,24 @@ class MapViewController: UIViewController {
         dropPin2.coordinate = startLocation
         dropPin2.title = "New York City2"
         //MyMap.addAnnotation(dropPin2)
+       
+        let fr = JPSThumbnail()
+        fr.coordinate =  CLLocationCoordinate2D (latitude:51.674773, longitude: 39.209151)
+        fr.image = UIImage(named: "cat2")
+        fr.title = "gjhgh"
+        fr.subtitle = "yhdydy"
+        
+        //MyMap.addAnnotation(JPSThumbnailAnnotation(thumbnail: fr))
+        
+    
         
         
-        p.addAnnotations([dropPin, dropPin2], withCompletionHandler: nil)
+       p.addAnnotations([dropPin2, JPSThumbnailAnnotation(thumbnail: fr)], withCompletionHandler: nil)
         
        
     }
+    
+    
     
     func LoadPoint(start: CLLocation){
         let Radius:CLLocationDistance = 2000
@@ -59,6 +73,24 @@ class MapViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func mapClusterController(_ mapClusterController: CCHMapClusterController!, titleFor mapClusterAnnotation: CCHMapClusterAnnotation!) -> String! {
+        if mapClusterAnnotation.annotations.count > 1{
+            let x : Int = mapClusterController.annotations.count
+            return String(x)
+            
+        }
+        let sl = CLLocationCoordinate2D (latitude:51.674773, longitude: 39.209151)
+        if mapClusterAnnotation.coordinate.latitude == sl.latitude {
+            return String(mapClusterAnnotation.coordinate.latitude)
+        }
+        else{
+            return "2 метка"
+        }
+        
+    }
+    
+
 
     /*
     // MARK: - Navigation

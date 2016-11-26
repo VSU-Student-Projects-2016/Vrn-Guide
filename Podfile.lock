@@ -1,15 +1,23 @@
 PODS:
   - CCHMapClusterController (1.7.0)
   - JPSThumbnailAnnotation (1.0.0)
+  - Realm (2.1.0):
+    - Realm/Headers (= 2.1.0)
+  - Realm/Headers (2.1.0)
+  - RealmSwift (2.1.0):
+    - Realm (= 2.1.0)
 
 DEPENDENCIES:
   - CCHMapClusterController
   - JPSThumbnailAnnotation
+  - RealmSwift
 
 SPEC CHECKSUMS:
   CCHMapClusterController: d8cd12cd5682ec6cd76d911ac7198f981b6cc1b8
   JPSThumbnailAnnotation: 4b35e87788d903db3fec294e7ef44136b9f741fb
+  Realm: bc829ad0ef3d4eea70c34cfcc3b1704d18d50df1
+  RealmSwift: a4d4abbf0088c337cab5b738054395842e4b3052
 
-PODFILE CHECKSUM: 1db217a4bfcf5dcb1131ede920a00833f9d7d353
+PODFILE CHECKSUM: 666ce579f340784fcc8b93b77f255fe049c02672
 
 COCOAPODS: 1.1.1

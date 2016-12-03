@@ -11,13 +11,12 @@ import RealmSwift
 
 class SingleItem: Object{
     dynamic var item_id=0
-    dynamic var item_latitude=0
-    dynamic var item_longitude=0
+    dynamic var item_latitude=0.0
+    dynamic var item_longitude=0.0
     dynamic var image=""
     dynamic var name=""
     dynamic var context=""
     dynamic var item_description=""
-    dynamic var table: Items?
     
 }
 

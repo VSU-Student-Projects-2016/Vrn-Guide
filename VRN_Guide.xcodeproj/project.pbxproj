@@ -11,6 +11,8 @@
 		AE89A6A91DBB950A0016972B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE89A6A81DBB950A0016972B /* MapViewController.swift */; };
 		AFD98C6A95D479284BA03048 /* Pods_VRN_Guide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7081CE0F7FA38EB069321E27 /* Pods_VRN_Guide.framework */; };
 		CE8CF63106BCD60ECDAEC6E4 /* Pods_VRN_GuideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205BE2CCB6306A3447E2C4E2 /* Pods_VRN_GuideTests.framework */; };
+		F14218661DF2C428004604E5 /* SingleItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14218651DF2C428004604E5 /* SingleItemViewController.swift */; };
+		F14218681DF2C887004604E5 /* RealmItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14218671DF2C887004604E5 /* RealmItem.swift */; };
 		F155332C1DC4CA8D00C9BD08 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F155332B1DC4CA8D00C9BD08 /* Item.swift */; };
 		F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */; };
 		F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1E9901DA91B150043C14C /* AppDelegate.swift */; };
@@ -52,6 +54,8 @@
 		BBD7DDFE91331F686BA042E1 /* Pods-VRN_Guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_Guide.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_Guide/Pods-VRN_Guide.release.xcconfig"; sourceTree = "<group>"; };
 		C75D9DADBDB188A7939F026D /* Pods-VRN_Guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_Guide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_Guide/Pods-VRN_Guide.debug.xcconfig"; sourceTree = "<group>"; };
 		E89ACDFFB6C21846F1EE16A2 /* Pods-VRN_GuideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRN_GuideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VRN_GuideTests/Pods-VRN_GuideTests.release.xcconfig"; sourceTree = "<group>"; };
+		F14218651DF2C428004604E5 /* SingleItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleItemViewController.swift; sourceTree = "<group>"; };
+		F14218671DF2C887004604E5 /* RealmItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmItem.swift; sourceTree = "<group>"; };
 		F155332B1DC4CA8D00C9BD08 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		F1C464641DBB807000C7DCA3 /* VRN_Guide-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VRN_Guide-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
@@ -142,11 +146,13 @@
 				F1D1E9901DA91B150043C14C /* AppDelegate.swift */,
 				F1D1E9921DA91B150043C14C /* ViewController.swift */,
 				F1D1E9941DA91B150043C14C /* Main.storyboard */,
+				F14218651DF2C428004604E5 /* SingleItemViewController.swift */,
 				F1FDEEC91DC4AAE700F457A5 /* ItemTableViewCell.swift */,
 				F1C464641DBB807000C7DCA3 /* VRN_Guide-Bridging-Header.h */,
 				AE89A6A81DBB950A0016972B /* MapViewController.swift */,
 				F1BC48DB1DB249C900D1FDA2 /* ItemViewController.swift */,
 				F155332B1DC4CA8D00C9BD08 /* Item.swift */,
+				F14218671DF2C887004604E5 /* RealmItem.swift */,
 				F1D1E9971DA91B150043C14C /* Assets.xcassets */,
 				F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */,
 				F1D1E99C1DA91B150043C14C /* Info.plist */,
@@ -472,6 +478,8 @@
 			files = (
 				F1D1E9931DA91B150043C14C /* ViewController.swift in Sources */,
 				F1D1E9911DA91B150043C14C /* AppDelegate.swift in Sources */,
+				F14218681DF2C887004604E5 /* RealmItem.swift in Sources */,
+				F14218661DF2C428004604E5 /* SingleItemViewController.swift in Sources */,
 				F1FDEECA1DC4AAE700F457A5 /* ItemTableViewCell.swift in Sources */,
 				F1BC48DC1DB249C900D1FDA2 /* ItemViewController.swift in Sources */,
 				F155332C1DC4CA8D00C9BD08 /* Item.swift in Sources */,

@@ -8,7 +8,7 @@
 //  A custom class for items in table view
 import Foundation
 
-class Item{
+class Item {
     //MARK - class fields
     var _image: UIImage
     var _name: String

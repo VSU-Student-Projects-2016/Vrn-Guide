@@ -10,6 +10,13 @@ import UIKit
 
 class SingleItemViewController: UIViewController {
 
+    @IBOutlet weak var ItemPhoto: UIImageView!
+    
+    @IBOutlet weak var ItemName: UILabel!
+    
+    @IBOutlet weak var ItemLocation: MKMapView!
+    @IBOutlet weak var ItemDescription: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

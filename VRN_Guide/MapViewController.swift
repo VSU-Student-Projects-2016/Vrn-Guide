@@ -12,7 +12,7 @@ import MapKit
 import CCHMapClusterController
 import JPSThumbnailAnnotation
 
-class MapViewController: UIViewController, CCHMapClusterControllerDelegate {
+class MapViewController: UIViewController, CCHMapClusterControllerDelegate, MKMapViewDelegate {
 
   
     @IBOutlet weak var MyMap: MKMapView!
@@ -23,6 +23,8 @@ class MapViewController: UIViewController, CCHMapClusterControllerDelegate {
         //51.675611, 39.211179
         self.p = CCHMapClusterController.init(mapView: self.MyMap)
         self.p.delegate = self
+        self.MyMap.delegate = self
+        
         
         let startLocation = CLLocationCoordinate2D(latitude: 51.675611, longitude: 39.211179)
         let sl = CLLocationCoordinate2D (latitude:51.674773, longitude: 39.209151)
@@ -47,12 +49,13 @@ class MapViewController: UIViewController, CCHMapClusterControllerDelegate {
         fr.title = "gjhgh"
         fr.subtitle = "yhdydy"
         
+        
         //MyMap.addAnnotation(JPSThumbnailAnnotation(thumbnail: fr))
         
     
         
-        
-       p.addAnnotations([dropPin2, JPSThumbnailAnnotation(thumbnail: fr)], withCompletionHandler: nil)
+        //MyMap.addAnnotation(JPSThumbnailAnnotation(thumbnail: fr))
+        p.addAnnotations([JPSThumbnailAnnotation(thumbnail: fr)], withCompletionHandler: nil)
         
        
     }
@@ -67,12 +70,38 @@ class MapViewController: UIViewController, CCHMapClusterControllerDelegate {
         
 
     }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        if let a = view as? JPSThumbnailAnnotationView{
+            return a.didDeselectAnnotationView(inMap: mapView)
+        }
+        
+        
+    }
+    
+    func mapView(_ mapView: MKMapView, didDeselect view: MKAnnotationView) {
+        if let a = view as? JPSThumbnailAnnotationView{
+            return a.didDeselectAnnotationView(inMap: mapView)
+        }
+        
+    }
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        if let a = annotation as? JPSThumbnailAnnotationProtocol {
+            return a.annotationView(inMap: mapView)
+        }
+        
+        return nil
+        
+        
+    }
     
     func mapClusterController(_ mapClusterController: CCHMapClusterController!, titleFor mapClusterAnnotation: CCHMapClusterAnnotation!) -> String! {
         if mapClusterAnnotation.annotations.count > 1{
@@ -89,6 +118,10 @@ class MapViewController: UIViewController, CCHMapClusterControllerDelegate {
         }
         
     }
+    
+    
+    
+    
     
 
 

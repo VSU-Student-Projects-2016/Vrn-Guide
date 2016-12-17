@@ -121,6 +121,7 @@
 		F1D1E9841DA91B140043C14C = {
 			isa = PBXGroup;
 			children = (
+				F1D1E9941DA91B150043C14C /* Main.storyboard */,
 				F1D1E98F1DA91B150043C14C /* VRN_Guide */,
 				F1D1E9A41DA91B150043C14C /* VRN_GuideTests */,
 				F1D1E9AF1DA91B150043C14C /* VRN_GuideUITests */,
@@ -145,7 +146,6 @@
 			children = (
 				F1D1E9901DA91B150043C14C /* AppDelegate.swift */,
 				F1D1E9921DA91B150043C14C /* ViewController.swift */,
-				F1D1E9941DA91B150043C14C /* Main.storyboard */,
 				F14218651DF2C428004604E5 /* SingleItemViewController.swift */,
 				F1FDEEC91DC4AAE700F457A5 /* ItemTableViewCell.swift */,
 				F1C464641DBB807000C7DCA3 /* VRN_Guide-Bridging-Header.h */,
@@ -525,6 +525,7 @@
 				F1D1E9951DA91B150043C14C /* Base */,
 			);
 			name = Main.storyboard;
+			path = VRN_Guide;
 			sourceTree = "<group>";
 		};
 		F1D1E9991DA91B150043C14C /* LaunchScreen.storyboard */ = {

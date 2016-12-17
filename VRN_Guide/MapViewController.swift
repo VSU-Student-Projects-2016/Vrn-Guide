@@ -31,7 +31,8 @@ class MapViewController: UIViewController, CCHMapClusterControllerDelegate, MKMa
         
         /*let startLocation = CLLocationCoordinate2D(latitude: 51.675611, longitude: 39.211179)
         let sl = CLLocationCoordinate2D (latitude:51.674773, longitude: 39.209151)*/
-        StartLocation()
+        let start = CLLocationCoordinate2D (latitude:51.674773, longitude: 39.209151)
+        StartLocation(sl: start)
         
         let arr = item_realm.objects(SingleItem.self)
         for index in arr{
@@ -74,8 +75,8 @@ class MapViewController: UIViewController, CCHMapClusterControllerDelegate, MKMa
     }
     
     //отцентровка
-    func StartLocation(){
-        let sl = CLLocationCoordinate2D (latitude:51.674773, longitude: 39.209151)
+    func StartLocation(sl: CLLocationCoordinate2D ){
+        //let sl = CLLocationCoordinate2D (latitude:51.674773, longitude: 39.209151)
         let span = MKCoordinateSpanMake(0.3, 0.3)
         let region = MKCoordinateRegion(center: sl, span: span)
         
@@ -123,6 +124,19 @@ class MapViewController: UIViewController, CCHMapClusterControllerDelegate, MKMa
     }
     
     func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView) {
+        
+        let t = view.annotation?.title
+        guard let elem = item_realm.objects(SingleItem.self).filter("name =\"\(t!!)\"").first else {
+            return
+        }
+        let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+        let singlevc = storyBoard.instantiateViewController(withIdentifier: "SingleItemView") as! SingleItemViewController
+        singlevc.item = elem
+        
+        self.navigationController?.pushViewController(singlevc, animated: true)
+        
+        //self.present(singlevc, animated: true, completion: nil)
+        
         if let a = view as? JPSThumbnailAnnotationView{
             return a.didDeselectAnnotationView(inMap: mapView)
         }
@@ -147,40 +161,29 @@ class MapViewController: UIViewController, CCHMapClusterControllerDelegate, MKMa
         
     }
     
-    func mapClusterController(_ mapClusterController: CCHMapClusterController!, titleFor mapClusterAnnotation: CCHMapClusterAnnotation!) -> String! {
+    //        if (mapClusterAnnotation.index == 0)
+    //        array_of_artwork
+    //            return String()
+    //        }
+    //        else{
+    //            return "2 метка"
+    //        }
+    //        item_realm.objects(SingleItem.self)[idx]
+    
+    func mapClusterController(_ mapClusterController: CCHMapClusterController!, titleFor mapClusterAnnotation: CCHMapClusterAnnotation!) -> String!{
         if mapClusterAnnotation.annotations.count > 1{
             let x : Int = mapClusterController.annotations.count
             return String(x)
             
         }
-        return ""
+        else{
+            let t = mapClusterAnnotation.coordinate.latitude
+            let elem = item_realm.objects(SingleItem.self).filter("item_latitude = %@", t).first
+            return elem!.name
         }
-        
-        return ""
-//        if (mapClusterAnnotation.index == 0)
-//        array_of_artwork
-//            return String()
-//        }
-//        else{
-//            return "2 метка"
-//        }
-//        item_realm.objects(SingleItem.self)[idx]
     }
     
     
-    
-    
-    
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
+

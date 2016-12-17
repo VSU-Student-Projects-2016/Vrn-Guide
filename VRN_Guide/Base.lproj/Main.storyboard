@@ -2,14 +2,13 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NnI-rv-qbu">
     <dependencies>
         <deployment identifier="iOS"/>
-
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--StartView-->
-        <scene sceneID="tne-QT-ifu"> 
+        <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController title="StartView" id="BYZ-38-t0r" customClass="ViewController" customModule="VRN_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
@@ -58,24 +57,24 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="92"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Npu-H2-gDA" id="2aT-Ka-e2g">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="91"/>
+                                    <frame key="frameInset" width="375" height="92"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Ji-c1-pty">
-                                            <rect key="frame" x="8" y="0.0" width="92" height="92"/>
+                                            <frame key="frameInset" minX="8" width="92" height="92"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="90" id="euI-pT-8Wi"/>
                                                 <constraint firstAttribute="width" constant="90" id="hlz-te-vAU"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="NameLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UF8-X4-65M">
-                                            <rect key="frame" x="108" y="8" width="259" height="40"/>
+                                            <frame key="frameInset" minX="108" minY="8" width="259" height="40"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ContextLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbP-Ra-yyf">
-                                            <rect key="frame" x="108" y="56" width="259" height="28"/>
+                                            <frame key="frameInset" minX="108" minY="56" width="259" height="28"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -115,7 +114,7 @@
         <!--SingleItem-->
         <scene sceneID="Bgs-fZ-WXp">
             <objects>
-                <viewController id="IhI-ia-hUY" userLabel="SingleItem" customClass="SingleItemViewController" customModule="VRN_Guide" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SingleItemView" id="IhI-ia-hUY" userLabel="SingleItem" customClass="SingleItemViewController" customModule="VRN_Guide" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Uqd-tB-EOu"/>
                         <viewControllerLayoutGuide type="bottom" id="bz9-b4-uAZ"/>
@@ -125,26 +124,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5Ic-SF-irr">
-                                <rect key="frame" x="0.0" y="513" width="375" height="134"/>
+                                <frame key="frameInset" minY="513" width="375" height="134"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="Xg7-0m-vF3"/>
                                 </constraints>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBq-JE-Cwa">
-                                <rect key="frame" x="27" y="220" width="319" height="46"/>
+                                <frame key="frameInset" minX="27" minY="220" width="319" height="46"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I4z-uc-clA">
-                                <rect key="frame" x="16" y="274" width="343" height="231"/>
+                                <frame key="frameInset" minX="16" minY="274" width="343" height="231"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ag-7q-Hje">
-                                <rect key="frame" x="0.0" y="64" width="375" height="148"/>
+                                <frame key="frameInset" minY="64" width="375" height="148"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="FIZ-r7-t4z"/>
                                 </constraints>
